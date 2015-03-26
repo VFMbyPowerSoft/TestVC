@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,8 @@ namespace Projects
         {
             InitializeComponent();
         }
+        MySqlConnection c = new MySqlConnection("Server=localhost; database=villageFund_db; UID=root; Pwd=root;");
+        MySqlCommand cmd = new MySqlCommand();
 
         private void menuToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -112,6 +115,89 @@ namespace Projects
         {
             this.Close();
         }
-    
+
+        private void but_search_Click(object sender, EventArgs e)
+        {
+
+            loadData();
+        }
+
+        private void loadData()
+        {
+
+            //c.Open();
+            //cmd.Connection = c;
+            
+            MySqlDataReader Reader;
+            cmd.CommandText = "SELECT * FROM member";
+            Reader = cmd.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(Reader);
+
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = dataTable;
+            dataGridView1.Refresh();
+
+
+        }
+        private void Showdata()
+        {
+           // MySqlCommand cmd = new MySqlCommand();
+
+            MySqlDataReader Reader;
+            cmd.CommandText = "SELECT * FROM member WHERE IDmem LIKE '" + tb_search.Text.Trim() + "'";
+            Reader = cmd.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(Reader);
+
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = dataTable;
+            dataGridView1.Refresh();
+
+           /* if (Reader2.HasRows)
+            {
+                dt.Load(Reader2);
+                dataGridView1.DataSource = dt;
+            }
+                
+            else
+            {
+                dataGridView1.DataSource = null;
+            }*/
+            
+        }
+
+        private void Show_Member_Load(object sender, EventArgs e)
+        {
+            c.Open();
+            cmd.Connection = c;
+            loadData();
+        }
+        private void Show_Member_Unload(object sender, EventArgs e)
+        {
+            c.Close();
+        }
+
+        private void but_search1_Click(object sender, EventArgs e)
+        {
+            Showdata();
+        }
+
+        private void but_print_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Print print = new Print();
+            print.Show();
+        }
+
+        private void but_add_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Add_Member adm = new Add_Member();
+            adm.Show();
+        }
+        
     }
 }

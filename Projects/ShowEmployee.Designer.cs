@@ -30,28 +30,19 @@
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.tb_search = new System.Windows.Forms.TextBox();
+            this.but_search = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.สมาชกToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.สมาชกทงหมดToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.เพมสมาชกเปดบญชToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ฝากถอนToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ขอมมลเงนฝากToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ฝากถอนเงนToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.เงนกToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ขอมลเงนกบญช1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ขอมลเงนกบญช2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ชำระคางวดToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.เพมรายชอผกToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ขอมลดอกเบยปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.แจกแจงรายการปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.but_print = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.muneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.พนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.เพมพนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ขอมลพนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ผจดการToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.but_search1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -67,191 +58,42 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(237, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.Size = new System.Drawing.Size(67, 16);
             this.label2.TabIndex = 195;
             this.label2.Text = "ค้นหาสมาชิก";
             // 
-            // textBox1
+            // tb_search
             // 
-            this.textBox1.Location = new System.Drawing.Point(309, 140);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 194;
+            this.tb_search.Location = new System.Drawing.Point(309, 140);
+            this.tb_search.Name = "tb_search";
+            this.tb_search.Size = new System.Drawing.Size(100, 20);
+            this.tb_search.TabIndex = 194;
             // 
-            // button1
+            // but_search
             // 
-            this.button1.Location = new System.Drawing.Point(429, 138);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 193;
-            this.button1.Text = "ค้นหา";
-            this.button1.UseVisualStyleBackColor = true;
+            this.but_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_search.Location = new System.Drawing.Point(525, 138);
+            this.but_search.Name = "but_search";
+            this.but_search.Size = new System.Drawing.Size(109, 23);
+            this.but_search.TabIndex = 193;
+            this.but_search.Text = "แสดงทั้งหมด";
+            this.but_search.UseVisualStyleBackColor = true;
+            this.but_search.Click += new System.EventHandler(this.but_search_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(57, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 13);
+            this.label1.Size = new System.Drawing.Size(106, 16);
             this.label1.TabIndex = 192;
             this.label1.Text = "รายชื่อสมาชิกทั้งหมด";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuToolStripMenuItem,
-            this.สมาชกToolStripMenuItem,
-            this.ฝากถอนToolStripMenuItem,
-            this.เงนกToolStripMenuItem,
-            this.ปนผลToolStripMenuItem,
-            this.ออกจากระบบToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1008, 103);
-            this.menuStrip1.TabIndex = 191;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // menuToolStripMenuItem
-            // 
-            this.menuToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
-            this.menuToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.menuToolStripMenuItem.Text = "Menu";
-            this.menuToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
-            // 
-            // สมาชกToolStripMenuItem
-            // 
-            this.สมาชกToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.สมาชกทงหมดToolStripMenuItem,
-            this.เพมสมาชกเปดบญชToolStripMenuItem});
-            this.สมาชกToolStripMenuItem.Image = global::Projects.Properties.Resources.member_icon;
-            this.สมาชกToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.สมาชกToolStripMenuItem.Name = "สมาชกToolStripMenuItem";
-            this.สมาชกToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.สมาชกToolStripMenuItem.Text = "สมาชิก";
-            this.สมาชกToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // สมาชกทงหมดToolStripMenuItem
-            // 
-            this.สมาชกทงหมดToolStripMenuItem.Name = "สมาชกทงหมดToolStripMenuItem";
-            this.สมาชกทงหมดToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.สมาชกทงหมดToolStripMenuItem.Text = "สมาชิกทั้งหมด";
-            this.สมาชกทงหมดToolStripMenuItem.Click += new System.EventHandler(this.สมาชกทงหมดToolStripMenuItem_Click);
-            // 
-            // เพมสมาชกเปดบญชToolStripMenuItem
-            // 
-            this.เพมสมาชกเปดบญชToolStripMenuItem.Name = "เพมสมาชกเปดบญชToolStripMenuItem";
-            this.เพมสมาชกเปดบญชToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.เพมสมาชกเปดบญชToolStripMenuItem.Text = "เพิ่มสมาชิก/เปิดบัญชี";
-            this.เพมสมาชกเปดบญชToolStripMenuItem.Click += new System.EventHandler(this.เพมสมาชกเปดบญชToolStripMenuItem_Click);
-            // 
-            // ฝากถอนToolStripMenuItem
-            // 
-            this.ฝากถอนToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ขอมมลเงนฝากToolStripMenuItem,
-            this.ฝากถอนเงนToolStripMenuItem});
-            this.ฝากถอนToolStripMenuItem.Image = global::Projects.Properties.Resources.deposit_icon;
-            this.ฝากถอนToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ฝากถอนToolStripMenuItem.Name = "ฝากถอนToolStripMenuItem";
-            this.ฝากถอนToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.ฝากถอนToolStripMenuItem.Text = "ฝาก - ถอนเงิน";
-            this.ฝากถอนToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // ขอมมลเงนฝากToolStripMenuItem
-            // 
-            this.ขอมมลเงนฝากToolStripMenuItem.Name = "ขอมมลเงนฝากToolStripMenuItem";
-            this.ขอมมลเงนฝากToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.ขอมมลเงนฝากToolStripMenuItem.Text = "ข้อมูลเงินฝาก";
-            this.ขอมมลเงนฝากToolStripMenuItem.Click += new System.EventHandler(this.ขอมมลเงนฝากToolStripMenuItem_Click);
-            // 
-            // ฝากถอนเงนToolStripMenuItem
-            // 
-            this.ฝากถอนเงนToolStripMenuItem.Name = "ฝากถอนเงนToolStripMenuItem";
-            this.ฝากถอนเงนToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.ฝากถอนเงนToolStripMenuItem.Text = "ฝาก - ถอนเงิน";
-            this.ฝากถอนเงนToolStripMenuItem.Click += new System.EventHandler(this.ฝากถอนเงนToolStripMenuItem_Click);
-            // 
-            // เงนกToolStripMenuItem
-            // 
-            this.เงนกToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ขอมลเงนกบญช1ToolStripMenuItem,
-            this.ขอมลเงนกบญช2ToolStripMenuItem,
-            this.ชำระคางวดToolStripMenuItem,
-            this.เพมรายชอผกToolStripMenuItem});
-            this.เงนกToolStripMenuItem.Image = global::Projects.Properties.Resources.loan_icon;
-            this.เงนกToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.เงนกToolStripMenuItem.Name = "เงนกToolStripMenuItem";
-            this.เงนกToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.เงนกToolStripMenuItem.Text = "เงินกู้";
-            this.เงนกToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // ขอมลเงนกบญช1ToolStripMenuItem
-            // 
-            this.ขอมลเงนกบญช1ToolStripMenuItem.Name = "ขอมลเงนกบญช1ToolStripMenuItem";
-            this.ขอมลเงนกบญช1ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.ขอมลเงนกบญช1ToolStripMenuItem.Text = "ข้อมูลเงินกู้บัญชี 1";
-            this.ขอมลเงนกบญช1ToolStripMenuItem.Click += new System.EventHandler(this.ขอมลเงนกบญช1ToolStripMenuItem_Click);
-            // 
-            // ขอมลเงนกบญช2ToolStripMenuItem
-            // 
-            this.ขอมลเงนกบญช2ToolStripMenuItem.Name = "ขอมลเงนกบญช2ToolStripMenuItem";
-            this.ขอมลเงนกบญช2ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.ขอมลเงนกบญช2ToolStripMenuItem.Text = "ข้อมูลเงินกู้บัญชี 2";
-            this.ขอมลเงนกบญช2ToolStripMenuItem.Click += new System.EventHandler(this.ขอมลเงนกบญช2ToolStripMenuItem_Click);
-            // 
-            // ชำระคางวดToolStripMenuItem
-            // 
-            this.ชำระคางวดToolStripMenuItem.Name = "ชำระคางวดToolStripMenuItem";
-            this.ชำระคางวดToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.ชำระคางวดToolStripMenuItem.Text = "ชำระเงินกู้";
-            this.ชำระคางวดToolStripMenuItem.Click += new System.EventHandler(this.ชำระคางวดToolStripMenuItem_Click);
-            // 
-            // เพมรายชอผกToolStripMenuItem
-            // 
-            this.เพมรายชอผกToolStripMenuItem.Name = "เพมรายชอผกToolStripMenuItem";
-            this.เพมรายชอผกToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
-            this.เพมรายชอผกToolStripMenuItem.Text = "เพิ่มรายชื่อผู้กู้";
-            this.เพมรายชอผกToolStripMenuItem.Click += new System.EventHandler(this.เพมรายชอผกToolStripMenuItem_Click);
-            // 
-            // ปนผลToolStripMenuItem
-            // 
-            this.ปนผลToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ขอมลดอกเบยปนผลToolStripMenuItem,
-            this.แจกแจงรายการปนผลToolStripMenuItem});
-            this.ปนผลToolStripMenuItem.Image = global::Projects.Properties.Resources.dividend_icon;
-            this.ปนผลToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ปนผลToolStripMenuItem.Name = "ปนผลToolStripMenuItem";
-            this.ปนผลToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.ปนผลToolStripMenuItem.Text = "ปันผล";
-            this.ปนผลToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // ขอมลดอกเบยปนผลToolStripMenuItem
-            // 
-            this.ขอมลดอกเบยปนผลToolStripMenuItem.Name = "ขอมลดอกเบยปนผลToolStripMenuItem";
-            this.ขอมลดอกเบยปนผลToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.ขอมลดอกเบยปนผลToolStripMenuItem.Text = "ข้อมูลดอกเบี้ยปันผล";
-            this.ขอมลดอกเบยปนผลToolStripMenuItem.Click += new System.EventHandler(this.ขอมลดอกเบยปนผลToolStripMenuItem_Click);
-            // 
-            // แจกแจงรายการปนผลToolStripMenuItem
-            // 
-            this.แจกแจงรายการปนผลToolStripMenuItem.Name = "แจกแจงรายการปนผลToolStripMenuItem";
-            this.แจกแจงรายการปนผลToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.แจกแจงรายการปนผลToolStripMenuItem.Text = "แจกแจงรายการปันผล";
-            this.แจกแจงรายการปนผลToolStripMenuItem.Click += new System.EventHandler(this.แจกแจงรายการปนผลToolStripMenuItem_Click);
-            // 
-            // ออกจากระบบToolStripMenuItem
-            // 
-            this.ออกจากระบบToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
-            this.ออกจากระบบToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ออกจากระบบToolStripMenuItem.Name = "ออกจากระบบToolStripMenuItem";
-            this.ออกจากระบบToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.ออกจากระบบToolStripMenuItem.Text = "ออกจากระบบ";
-            this.ออกจากระบบToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
             // 
             // button3
             // 
@@ -262,16 +104,109 @@
             this.button3.Size = new System.Drawing.Size(64, 62);
             this.button3.TabIndex = 198;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button2
+            // but_print
             // 
-            this.button2.BackgroundImage = global::Projects.Properties.Resources.print_icon;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(862, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(64, 62);
-            this.button2.TabIndex = 197;
-            this.button2.UseVisualStyleBackColor = true;
+            this.but_print.BackgroundImage = global::Projects.Properties.Resources.print_icon;
+            this.but_print.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.but_print.Location = new System.Drawing.Point(862, 110);
+            this.but_print.Name = "but_print";
+            this.but_print.Size = new System.Drawing.Size(64, 62);
+            this.but_print.TabIndex = 197;
+            this.but_print.UseVisualStyleBackColor = true;
+            this.but_print.Click += new System.EventHandler(this.but_print_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.muneToolStripMenuItem,
+            this.พนกงานToolStripMenuItem,
+            this.ผจดการToolStripMenuItem,
+            this.ออกจากระบบToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1008, 108);
+            this.menuStrip1.TabIndex = 231;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // muneToolStripMenuItem
+            // 
+            this.muneToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.muneToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.muneToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
+            this.muneToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.muneToolStripMenuItem.Name = "muneToolStripMenuItem";
+            this.muneToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.muneToolStripMenuItem.Text = "หน้าแรก";
+            this.muneToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.muneToolStripMenuItem.Click += new System.EventHandler(this.muneToolStripMenuItem_Click);
+            // 
+            // พนกงานToolStripMenuItem
+            // 
+            this.พนกงานToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.พนกงานToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.เพมพนกงานToolStripMenuItem,
+            this.ขอมลพนกงานToolStripMenuItem});
+            this.พนกงานToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.พนกงานToolStripMenuItem.Image = global::Projects.Properties.Resources.employee_icon;
+            this.พนกงานToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.พนกงานToolStripMenuItem.Name = "พนกงานToolStripMenuItem";
+            this.พนกงานToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.พนกงานToolStripMenuItem.Text = "พนักงาน";
+            this.พนกงานToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // เพมพนกงานToolStripMenuItem
+            // 
+            this.เพมพนกงานToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.เพมพนกงานToolStripMenuItem.Name = "เพมพนกงานToolStripMenuItem";
+            this.เพมพนกงานToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.เพมพนกงานToolStripMenuItem.Text = "เพิ่มพนักงาน";
+            this.เพมพนกงานToolStripMenuItem.Click += new System.EventHandler(this.เพมพนกงานToolStripMenuItem_Click);
+            // 
+            // ขอมลพนกงานToolStripMenuItem
+            // 
+            this.ขอมลพนกงานToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ขอมลพนกงานToolStripMenuItem.Name = "ขอมลพนกงานToolStripMenuItem";
+            this.ขอมลพนกงานToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.ขอมลพนกงานToolStripMenuItem.Text = "ข้อมูลพนักงาน";
+            this.ขอมลพนกงานToolStripMenuItem.Click += new System.EventHandler(this.ขอมลพนกงานToolStripMenuItem_Click);
+            // 
+            // ผจดการToolStripMenuItem
+            // 
+            this.ผจดการToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ผจดการToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ผจดการToolStripMenuItem.Image = global::Projects.Properties.Resources.manager_icon_mini;
+            this.ผจดการToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.ผจดการToolStripMenuItem.Name = "ผจดการToolStripMenuItem";
+            this.ผจดการToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.ผจดการToolStripMenuItem.Text = "ผู้จัดการ";
+            this.ผจดการToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ผจดการToolStripMenuItem.Click += new System.EventHandler(this.ผจดการToolStripMenuItem_Click);
+            // 
+            // ออกจากระบบToolStripMenuItem
+            // 
+            this.ออกจากระบบToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ออกจากระบบToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ออกจากระบบToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
+            this.ออกจากระบบToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.ออกจากระบบToolStripMenuItem.Name = "ออกจากระบบToolStripMenuItem";
+            this.ออกจากระบบToolStripMenuItem.Size = new System.Drawing.Size(102, 104);
+            this.ออกจากระบบToolStripMenuItem.Text = "ออกจากระบบ";
+            this.ออกจากระบบToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
+            // 
+            // but_search1
+            // 
+            this.but_search1.BackColor = System.Drawing.Color.Transparent;
+            this.but_search1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_search1.Location = new System.Drawing.Point(425, 138);
+            this.but_search1.Name = "but_search1";
+            this.but_search1.Size = new System.Drawing.Size(82, 23);
+            this.but_search1.TabIndex = 232;
+            this.but_search1.Text = "ค้นหา";
+            this.but_search1.UseVisualStyleBackColor = false;
+            this.but_search1.Click += new System.EventHandler(this.but_search1_Click);
             // 
             // ShowEmployee
             // 
@@ -280,17 +215,20 @@
             this.BackgroundImage = global::Projects.Properties.Resources.background4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 601);
+            this.Controls.Add(this.but_search1);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.but_print);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tb_search);
+            this.Controls.Add(this.but_search);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.menuStrip1);
             this.Name = "ShowEmployee";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ข้อมูลพนักงาน";
+            this.Load += new System.EventHandler(this.ShowEmployee_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -301,29 +239,20 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem แจกแจงรายการปนผลToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ขอมลดอกเบยปนผลToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ปนผลToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem เพมรายชอผกToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ชำระคางวดToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ขอมลเงนกบญช2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ขอมลเงนกบญช1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem เงนกToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ฝากถอนเงนToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ขอมมลเงนฝากToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem เพมสมาชกเปดบญชToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem สมาชกทงหมดToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem สมาชกToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button but_print;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tb_search;
+        private System.Windows.Forms.Button but_search;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ToolStripMenuItem ฝากถอนToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem muneToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem พนกงานToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem เพมพนกงานToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ขอมลพนกงานToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ผจดการToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
+        private System.Windows.Forms.Button but_search1;
     }
 }

@@ -42,64 +42,74 @@
             // 
             // but_end
             // 
+            this.but_end.BackColor = System.Drawing.Color.Transparent;
             this.but_end.BackgroundImage = global::Projects.Properties.Resources.exit_icon1;
             this.but_end.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.but_end.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_end.Location = new System.Drawing.Point(768, 197);
             this.but_end.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.but_end.Name = "but_end";
             this.but_end.Size = new System.Drawing.Size(120, 120);
             this.but_end.TabIndex = 5;
             this.but_end.Text = "ออกจากระบบ";
-            this.but_end.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.but_end.UseVisualStyleBackColor = true;
+            this.but_end.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.but_end.UseVisualStyleBackColor = false;
             this.but_end.Click += new System.EventHandler(this.but_end_Click);
             // 
             // but_Loan
             // 
+            this.but_Loan.BackColor = System.Drawing.Color.Transparent;
             this.but_Loan.BackgroundImage = global::Projects.Properties.Resources.loan_icon1;
             this.but_Loan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.but_Loan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Loan.Location = new System.Drawing.Point(522, 197);
             this.but_Loan.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.but_Loan.Name = "but_Loan";
             this.but_Loan.Size = new System.Drawing.Size(120, 120);
             this.but_Loan.TabIndex = 3;
             this.but_Loan.Text = "เงินกู้";
-            this.but_Loan.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.but_Loan.UseVisualStyleBackColor = true;
+            this.but_Loan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.but_Loan.UseVisualStyleBackColor = false;
             this.but_Loan.Click += new System.EventHandler(this.but_Loan_Click);
             // 
             // but_menber
             // 
+            this.but_menber.BackColor = System.Drawing.Color.Transparent;
             this.but_menber.BackgroundImage = global::Projects.Properties.Resources.member_icon1;
             this.but_menber.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.but_menber.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_menber.Location = new System.Drawing.Point(282, 368);
             this.but_menber.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.but_menber.Name = "but_menber";
             this.but_menber.Size = new System.Drawing.Size(120, 120);
             this.but_menber.TabIndex = 2;
             this.but_menber.Text = "สมาชิก";
-            this.but_menber.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.but_menber.UseVisualStyleBackColor = true;
+            this.but_menber.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.but_menber.UseVisualStyleBackColor = false;
             this.but_menber.Click += new System.EventHandler(this.but_menber_Click);
             // 
             // but_Dividend
             // 
+            this.but_Dividend.BackColor = System.Drawing.Color.Transparent;
             this.but_Dividend.BackgroundImage = global::Projects.Properties.Resources.dividend_icon1;
             this.but_Dividend.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.but_Dividend.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Dividend.Location = new System.Drawing.Point(282, 197);
             this.but_Dividend.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.but_Dividend.Name = "but_Dividend";
             this.but_Dividend.Size = new System.Drawing.Size(120, 120);
             this.but_Dividend.TabIndex = 1;
             this.but_Dividend.Text = "ปันผล";
-            this.but_Dividend.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.but_Dividend.UseVisualStyleBackColor = true;
+            this.but_Dividend.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.but_Dividend.UseVisualStyleBackColor = false;
             this.but_Dividend.Click += new System.EventHandler(this.but_Dividend_Click);
             // 
             // but_Deposite
             // 
+            this.but_Deposite.BackColor = System.Drawing.Color.Transparent;
             this.but_Deposite.BackgroundImage = global::Projects.Properties.Resources.deposit_icon1;
             this.but_Deposite.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.but_Deposite.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Deposite.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.but_Deposite.Location = new System.Drawing.Point(34, 197);
             this.but_Deposite.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
@@ -107,23 +117,25 @@
             this.but_Deposite.Size = new System.Drawing.Size(120, 120);
             this.but_Deposite.TabIndex = 0;
             this.but_Deposite.Text = "ฝาก-ถอน";
-            this.but_Deposite.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.but_Deposite.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.but_Deposite.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.but_Deposite.UseVisualStyleBackColor = true;
+            this.but_Deposite.UseVisualStyleBackColor = false;
             this.but_Deposite.Click += new System.EventHandler(this.but_Deposite_Click);
             // 
             // but_Manager
             // 
+            this.but_Manager.BackColor = System.Drawing.Color.Transparent;
             this.but_Manager.BackgroundImage = global::Projects.Properties.Resources.manager_icon;
             this.but_Manager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.but_Manager.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.but_Manager.Location = new System.Drawing.Point(522, 368);
             this.but_Manager.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.but_Manager.Name = "but_Manager";
             this.but_Manager.Size = new System.Drawing.Size(120, 120);
             this.but_Manager.TabIndex = 6;
             this.but_Manager.Text = "ผู้จัดการ";
-            this.but_Manager.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.but_Manager.UseVisualStyleBackColor = true;
+            this.but_Manager.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.but_Manager.UseVisualStyleBackColor = false;
             this.but_Manager.Click += new System.EventHandler(this.but_Manager_Click);
             // 
             // time
@@ -171,6 +183,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Memumain";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "หน้าหลัก";
             this.ResumeLayout(false);
             this.PerformLayout();

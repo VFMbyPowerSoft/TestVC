@@ -46,6 +46,7 @@
             // 
             this.text_password.Location = new System.Drawing.Point(535, 120);
             this.text_password.Name = "text_password";
+            this.text_password.PasswordChar = '*';
             this.text_password.Size = new System.Drawing.Size(100, 20);
             this.text_password.TabIndex = 1;
             // 
@@ -75,14 +76,15 @@
             // 
             // but_log
             // 
+            this.but_log.BackColor = System.Drawing.Color.Transparent;
             this.but_log.BackgroundImage = global::Projects.Properties.Resources.login_button1;
             this.but_log.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_log.Location = new System.Drawing.Point(475, 165);
             this.but_log.Name = "but_log";
-            this.but_log.Size = new System.Drawing.Size(160, 52);
+            this.but_log.Size = new System.Drawing.Size(160, 55);
             this.but_log.TabIndex = 4;
             this.but_log.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            this.but_log.UseVisualStyleBackColor = true;
+            this.but_log.UseVisualStyleBackColor = false;
             this.but_log.Click += new System.EventHandler(this.but_log_Click);
             // 
             // Login
@@ -99,6 +101,7 @@
             this.Controls.Add(this.text_Name);
             this.Name = "Login";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "เข้าสู่ระบบ";
             this.ResumeLayout(false);
             this.PerformLayout();

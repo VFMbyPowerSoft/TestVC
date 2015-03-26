@@ -20,12 +20,12 @@ namespace Projects
 
         private void but_loginmanager_Click(object sender, EventArgs e)
         {
-          try
+            try
             {
 
-                MySqlConnection c = new MySqlConnection("Server=localhost; database=test; UID=root; Pwd=root;");
+                MySqlConnection c = new MySqlConnection("Server=localhost; database=villageFund_db; UID=root; Pwd=root;");
 
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM test.testLogin WHERE Name='" + this.text_manager.Text + "' AND Password='" + this.text_Passw.Text + "' ; ", c);
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM villageFund_db.manager WHERE manUsername='" + this.text_manager.Text + "' AND manPassword='" + this.text_Passw.Text + "' ; ", c);
 
                 MySqlDataReader myReader;
                 c.Open();
@@ -38,7 +38,7 @@ namespace Projects
                 if (count == 1)
                 {
                     //LoginManager lgm = new LoginManager();
-                   // lgm.Show();
+                    // lgm.Show();
                     MessageBox.Show("Successful");
                     this.Hide();
                     Memumain main = new Memumain();
@@ -55,6 +55,5 @@ namespace Projects
 
             }
         }
-        }
     }
-
+}

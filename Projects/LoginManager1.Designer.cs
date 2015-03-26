@@ -48,6 +48,7 @@
             // 
             this.text_Passw.Location = new System.Drawing.Point(173, 209);
             this.text_Passw.Name = "text_Passw";
+            this.text_Passw.PasswordChar = '*';
             this.text_Passw.Size = new System.Drawing.Size(100, 20);
             this.text_Passw.TabIndex = 1;
             // 
@@ -111,6 +112,7 @@
             this.Controls.Add(this.text_manager);
             this.Name = "LoginManager1";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "เข้าสู้ระบบผู้จัดการ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

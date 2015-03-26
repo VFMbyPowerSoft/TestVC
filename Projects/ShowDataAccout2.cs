@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace Projects
 {
     public partial class ShowDataAccout2 : Form
     {
+        MySqlConnection c = new MySqlConnection("Server=localhost; database=villageFund_db; UID=root; Pwd=root;");
+        MySqlCommand cmd = new MySqlCommand();
+
         public ShowDataAccout2()
         {
             InitializeComponent();
@@ -111,6 +115,73 @@ namespace Projects
         private void ออกจากระบบToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ShowDataAccout2_Load(object sender, EventArgs e)
+        {
+            c.Open();
+            cmd.Connection = c;
+            loadData();
+        }
+
+        private void ShowDataAccout2_Unload(object sender, EventArgs e)
+        {
+            c.Close();
+        }
+
+        private void but_search_Click(object sender, EventArgs e)
+        {
+            Showdata();
+        }
+
+        private void loadData()
+        {
+
+            //c.Open();
+            //cmd.Connection = c;
+
+            MySqlDataReader Reader;
+            cmd.CommandText = "SELECT * FROM loan";
+            Reader = cmd.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(Reader);
+
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = dataTable;
+            dataGridView1.Refresh();
+
+
+        }
+        private void Showdata()
+        {
+            // MySqlCommand cmd = new MySqlCommand();
+
+            MySqlDataReader Reader;
+            cmd.CommandText = "SELECT * FROM loan WHERE loanID LIKE '" + tb_search.Text.Trim() + "'";
+            Reader = cmd.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(Reader);
+
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = dataTable;
+            dataGridView1.Refresh();
+
+        }
+
+        private void but_print_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Print print = new Print();
+            print.Show();
+        }
+
+        private void but_add_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Add_Loan adl = new Add_Loan();
+            adl.Show();
         }
     
     }

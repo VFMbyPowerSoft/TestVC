@@ -22,9 +22,9 @@ namespace Projects
         {
             try
             {
-            MySqlConnection c = new MySqlConnection("Server=localhost; database=test; UID=root; Pwd=root;");
+                MySqlConnection c = new MySqlConnection("Server=localhost; database=villageFund_db; UID=root; Pwd=root;");
 
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM test.testLogin WHERE Password='" + this.text_manager.Text + "' ; ", c);
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM villageFund_db.manager WHERE manPassword='" + this.text_manager.Text + "' ; ", c);
 
                 MySqlDataReader myReader;
                 c.Open();
@@ -50,7 +50,7 @@ namespace Projects
                 MessageBox.Show(ex.ToString());
 
             }
-        
+
         }
     }
 }

@@ -112,5 +112,12 @@ namespace Projects
         {
             this.Close();
         }
+
+        private void but_print_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Print print = new Print();
+            print.Show();
+        }
     }
 }

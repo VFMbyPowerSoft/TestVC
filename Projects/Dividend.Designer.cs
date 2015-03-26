@@ -45,18 +45,18 @@
             this.ขอมลดอกเบยปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.แจกแจงรายการปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button4 = new System.Windows.Forms.Button();
+            this.but_submit_3 = new System.Windows.Forms.Button();
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.label56 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
             this.label70 = new System.Windows.Forms.Label();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.tb_perLoanInterest = new System.Windows.Forms.TextBox();
+            this.tb_totalDividend = new System.Windows.Forms.TextBox();
+            this.tb_totalDeposit = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.but_submit_1 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -76,24 +76,24 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.tb_avgWelfare_1 = new System.Windows.Forms.TextBox();
+            this.tb_avgInsure_1 = new System.Windows.Forms.TextBox();
+            this.tb_avgDevidend_1 = new System.Windows.Forms.TextBox();
+            this.tb_avgWage_1 = new System.Windows.Forms.TextBox();
+            this.tb_avgPayback_1 = new System.Windows.Forms.TextBox();
+            this.tb_welfare_1 = new System.Windows.Forms.TextBox();
+            this.tb_insure_1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tb_devidend_1 = new System.Windows.Forms.TextBox();
+            this.tb_wage_1 = new System.Windows.Forms.TextBox();
+            this.tb_payback_1 = new System.Windows.Forms.TextBox();
+            this.tb_perInterest_1 = new System.Windows.Forms.TextBox();
+            this.tb_loanInterest_1 = new System.Windows.Forms.TextBox();
+            this.tb_princLoan_1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.but_submit_2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -113,22 +113,22 @@
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.tb_avgWelfare_2 = new System.Windows.Forms.TextBox();
+            this.tb_avgInsure_2 = new System.Windows.Forms.TextBox();
+            this.tb_avgDevidend_2 = new System.Windows.Forms.TextBox();
+            this.tb_avgWage_2 = new System.Windows.Forms.TextBox();
+            this.tb_avgPayback_2 = new System.Windows.Forms.TextBox();
+            this.tb_welfare_2 = new System.Windows.Forms.TextBox();
+            this.tb_insure_2 = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.tb_devidend_2 = new System.Windows.Forms.TextBox();
+            this.tb_wage_2 = new System.Windows.Forms.TextBox();
+            this.tb_payback_2 = new System.Windows.Forms.TextBox();
+            this.tb_perInterest_2 = new System.Windows.Forms.TextBox();
+            this.tb_loanInterest_2 = new System.Windows.Forms.TextBox();
+            this.tb_princLoan_2 = new System.Windows.Forms.TextBox();
             this.label47 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -141,6 +141,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
             this.สมาชกToolStripMenuItem,
@@ -150,7 +151,7 @@
             this.ออกจากระบบToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1008, 103);
+            this.menuStrip1.Size = new System.Drawing.Size(1008, 108);
             this.menuStrip1.TabIndex = 210;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -159,8 +160,8 @@
             this.menuToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
             this.menuToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.menuToolStripMenuItem.Text = "Menu";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.menuToolStripMenuItem.Text = "หน้าแรก";
             this.menuToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
@@ -169,24 +170,25 @@
             this.สมาชกToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.สมาชกทงหมดToolStripMenuItem,
             this.เพมสมาชกเปดบญชToolStripMenuItem});
+            this.สมาชกToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.สมาชกToolStripMenuItem.Image = global::Projects.Properties.Resources.member_icon;
             this.สมาชกToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.สมาชกToolStripMenuItem.Name = "สมาชกToolStripMenuItem";
-            this.สมาชกToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
+            this.สมาชกToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
             this.สมาชกToolStripMenuItem.Text = "สมาชิก";
             this.สมาชกToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // สมาชกทงหมดToolStripMenuItem
             // 
             this.สมาชกทงหมดToolStripMenuItem.Name = "สมาชกทงหมดToolStripMenuItem";
-            this.สมาชกทงหมดToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.สมาชกทงหมดToolStripMenuItem.Size = new System.Drawing.Size(205, 24);
             this.สมาชกทงหมดToolStripMenuItem.Text = "สมาชิกทั้งหมด";
             this.สมาชกทงหมดToolStripMenuItem.Click += new System.EventHandler(this.สมาชกทงหมดToolStripMenuItem_Click);
             // 
             // เพมสมาชกเปดบญชToolStripMenuItem
             // 
             this.เพมสมาชกเปดบญชToolStripMenuItem.Name = "เพมสมาชกเปดบญชToolStripMenuItem";
-            this.เพมสมาชกเปดบญชToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.เพมสมาชกเปดบญชToolStripMenuItem.Size = new System.Drawing.Size(205, 24);
             this.เพมสมาชกเปดบญชToolStripMenuItem.Text = "เพิ่มสมาชิก/เปิดบัญชี";
             this.เพมสมาชกเปดบญชToolStripMenuItem.Click += new System.EventHandler(this.เพมสมาชกเปดบญชToolStripMenuItem_Click);
             // 
@@ -195,24 +197,27 @@
             this.ฝากถอนToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ขอมมลเงนฝากToolStripMenuItem,
             this.ฝากถอนเงนToolStripMenuItem});
+            this.ฝากถอนToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ฝากถอนToolStripMenuItem.Image = global::Projects.Properties.Resources.deposit_icon;
             this.ฝากถอนToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ฝากถอนToolStripMenuItem.Name = "ฝากถอนToolStripMenuItem";
-            this.ฝากถอนToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
+            this.ฝากถอนToolStripMenuItem.Size = new System.Drawing.Size(107, 104);
             this.ฝากถอนToolStripMenuItem.Text = "ฝาก - ถอนเงิน";
             this.ฝากถอนToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // ขอมมลเงนฝากToolStripMenuItem
             // 
+            this.ขอมมลเงนฝากToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ขอมมลเงนฝากToolStripMenuItem.Name = "ขอมมลเงนฝากToolStripMenuItem";
-            this.ขอมมลเงนฝากToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.ขอมมลเงนฝากToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.ขอมมลเงนฝากToolStripMenuItem.Text = "ข้อมูลเงินฝาก";
             this.ขอมมลเงนฝากToolStripMenuItem.Click += new System.EventHandler(this.ขอมมลเงนฝากToolStripMenuItem_Click);
             // 
             // ฝากถอนเงนToolStripMenuItem
             // 
+            this.ฝากถอนเงนToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ฝากถอนเงนToolStripMenuItem.Name = "ฝากถอนเงนToolStripMenuItem";
-            this.ฝากถอนเงนToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.ฝากถอนเงนToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.ฝากถอนเงนToolStripMenuItem.Text = "ฝาก - ถอนเงิน";
             this.ฝากถอนเงนToolStripMenuItem.Click += new System.EventHandler(this.ฝากถอนเงนToolStripMenuItem_Click);
             // 
@@ -223,38 +228,43 @@
             this.ขอมลเงนกบญช2ToolStripMenuItem,
             this.ชำระคางวดToolStripMenuItem,
             this.เพมรายชอผกToolStripMenuItem});
+            this.เงนกToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.เงนกToolStripMenuItem.Image = global::Projects.Properties.Resources.loan_icon;
             this.เงนกToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.เงนกToolStripMenuItem.Name = "เงนกToolStripMenuItem";
-            this.เงนกToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
+            this.เงนกToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
             this.เงนกToolStripMenuItem.Text = "เงินกู้";
             this.เงนกToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // ขอมลเงนกบญช1ToolStripMenuItem
             // 
+            this.ขอมลเงนกบญช1ToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ขอมลเงนกบญช1ToolStripMenuItem.Name = "ขอมลเงนกบญช1ToolStripMenuItem";
-            this.ขอมลเงนกบญช1ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.ขอมลเงนกบญช1ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.ขอมลเงนกบญช1ToolStripMenuItem.Text = "ข้อมูลเงินกู้บัญชี 1";
             this.ขอมลเงนกบญช1ToolStripMenuItem.Click += new System.EventHandler(this.ขอมลเงนกบญช1ToolStripMenuItem_Click);
             // 
             // ขอมลเงนกบญช2ToolStripMenuItem
             // 
+            this.ขอมลเงนกบญช2ToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ขอมลเงนกบญช2ToolStripMenuItem.Name = "ขอมลเงนกบญช2ToolStripMenuItem";
-            this.ขอมลเงนกบญช2ToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.ขอมลเงนกบญช2ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.ขอมลเงนกบญช2ToolStripMenuItem.Text = "ข้อมูลเงินกู้บัญชี 2";
             this.ขอมลเงนกบญช2ToolStripMenuItem.Click += new System.EventHandler(this.ขอมลเงนกบญช2ToolStripMenuItem_Click);
             // 
             // ชำระคางวดToolStripMenuItem
             // 
+            this.ชำระคางวดToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ชำระคางวดToolStripMenuItem.Name = "ชำระคางวดToolStripMenuItem";
-            this.ชำระคางวดToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.ชำระคางวดToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.ชำระคางวดToolStripMenuItem.Text = "ชำระเงินกู้";
             this.ชำระคางวดToolStripMenuItem.Click += new System.EventHandler(this.ชำระคางวดToolStripMenuItem_Click);
             // 
             // เพมรายชอผกToolStripMenuItem
             // 
+            this.เพมรายชอผกToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.เพมรายชอผกToolStripMenuItem.Name = "เพมรายชอผกToolStripMenuItem";
-            this.เพมรายชอผกToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.เพมรายชอผกToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.เพมรายชอผกToolStripMenuItem.Text = "เพิ่มรายชื่อผู้กู้";
             this.เพมรายชอผกToolStripMenuItem.Click += new System.EventHandler(this.เพมรายชอผกToolStripMenuItem_Click);
             // 
@@ -263,453 +273,521 @@
             this.ปนผลToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ขอมลดอกเบยปนผลToolStripMenuItem,
             this.แจกแจงรายการปนผลToolStripMenuItem});
+            this.ปนผลToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ปนผลToolStripMenuItem.Image = global::Projects.Properties.Resources.dividend_icon;
             this.ปนผลToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ปนผลToolStripMenuItem.Name = "ปนผลToolStripMenuItem";
-            this.ปนผลToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
+            this.ปนผลToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
             this.ปนผลToolStripMenuItem.Text = "ปันผล";
             this.ปนผลToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // ขอมลดอกเบยปนผลToolStripMenuItem
             // 
+            this.ขอมลดอกเบยปนผลToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ขอมลดอกเบยปนผลToolStripMenuItem.Name = "ขอมลดอกเบยปนผลToolStripMenuItem";
-            this.ขอมลดอกเบยปนผลToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.ขอมลดอกเบยปนผลToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.ขอมลดอกเบยปนผลToolStripMenuItem.Text = "ข้อมูลดอกเบี้ยปันผล";
             this.ขอมลดอกเบยปนผลToolStripMenuItem.Click += new System.EventHandler(this.ขอมลดอกเบยปนผลToolStripMenuItem_Click);
             // 
             // แจกแจงรายการปนผลToolStripMenuItem
             // 
+            this.แจกแจงรายการปนผลToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.แจกแจงรายการปนผลToolStripMenuItem.Name = "แจกแจงรายการปนผลToolStripMenuItem";
-            this.แจกแจงรายการปนผลToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
+            this.แจกแจงรายการปนผลToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.แจกแจงรายการปนผลToolStripMenuItem.Text = "แจกแจงรายการปันผล";
             this.แจกแจงรายการปนผลToolStripMenuItem.Click += new System.EventHandler(this.แจกแจงรายการปนผลToolStripMenuItem_Click);
             // 
             // ออกจากระบบToolStripMenuItem
             // 
+            this.ออกจากระบบToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ออกจากระบบToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
             this.ออกจากระบบToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ออกจากระบบToolStripMenuItem.Name = "ออกจากระบบToolStripMenuItem";
-            this.ออกจากระบบToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
+            this.ออกจากระบบToolStripMenuItem.Size = new System.Drawing.Size(102, 104);
             this.ออกจากระบบToolStripMenuItem.Text = "ออกจากระบบ";
             this.ออกจากระบบToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
             // 
-            // button4
+            // but_submit_3
             // 
-            this.button4.Location = new System.Drawing.Point(851, 359);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 221;
-            this.button4.Text = "ตกลง";
-            this.button4.UseVisualStyleBackColor = true;
+            this.but_submit_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_submit_3.Location = new System.Drawing.Point(851, 359);
+            this.but_submit_3.Name = "but_submit_3";
+            this.but_submit_3.Size = new System.Drawing.Size(75, 23);
+            this.but_submit_3.TabIndex = 221;
+            this.but_submit_3.Text = "ตกลง";
+            this.but_submit_3.UseVisualStyleBackColor = true;
             // 
             // label54
             // 
             this.label54.AutoSize = true;
+            this.label54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label54.Location = new System.Drawing.Point(962, 274);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(26, 13);
+            this.label54.Size = new System.Drawing.Size(28, 16);
             this.label54.TabIndex = 220;
             this.label54.Text = "บาท";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
+            this.label55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.Location = new System.Drawing.Point(962, 248);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(26, 13);
+            this.label55.Size = new System.Drawing.Size(28, 16);
             this.label55.TabIndex = 219;
             this.label55.Text = "บาท";
             // 
             // label56
             // 
             this.label56.AutoSize = true;
+            this.label56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.Location = new System.Drawing.Point(962, 320);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(15, 13);
+            this.label56.Size = new System.Drawing.Size(20, 16);
             this.label56.TabIndex = 218;
             this.label56.Text = "%";
             // 
             // label68
             // 
             this.label68.AutoSize = true;
+            this.label68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.Location = new System.Drawing.Point(741, 320);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(71, 13);
+            this.label68.Size = new System.Drawing.Size(65, 16);
             this.label68.TabIndex = 217;
             this.label68.Text = "ดอกเบี้ยเงินกู้";
             // 
             // label69
             // 
             this.label69.AutoSize = true;
+            this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label69.Location = new System.Drawing.Point(735, 248);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(77, 13);
+            this.label69.Size = new System.Drawing.Size(78, 16);
             this.label69.TabIndex = 216;
             this.label69.Text = "เงินฝากทั้งหมด";
             // 
             // label70
             // 
             this.label70.AutoSize = true;
+            this.label70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.Location = new System.Drawing.Point(706, 274);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(106, 13);
+            this.label70.Size = new System.Drawing.Size(102, 16);
             this.label70.TabIndex = 215;
             this.label70.Text = "ดอกเบี้ยปันผลสมาชิก";
             // 
-            // textBox37
+            // tb_perLoanInterest
             // 
-            this.textBox37.Location = new System.Drawing.Point(896, 313);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(50, 20);
-            this.textBox37.TabIndex = 214;
+            this.tb_perLoanInterest.Location = new System.Drawing.Point(896, 313);
+            this.tb_perLoanInterest.Name = "tb_perLoanInterest";
+            this.tb_perLoanInterest.Size = new System.Drawing.Size(50, 20);
+            this.tb_perLoanInterest.TabIndex = 214;
             // 
-            // textBox38
+            // tb_totalDividend
             // 
-            this.textBox38.Location = new System.Drawing.Point(846, 267);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(100, 20);
-            this.textBox38.TabIndex = 213;
+            this.tb_totalDividend.Location = new System.Drawing.Point(846, 267);
+            this.tb_totalDividend.Name = "tb_totalDividend";
+            this.tb_totalDividend.Size = new System.Drawing.Size(100, 20);
+            this.tb_totalDividend.TabIndex = 213;
             // 
-            // textBox39
+            // tb_totalDeposit
             // 
-            this.textBox39.Location = new System.Drawing.Point(846, 241);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(100, 20);
-            this.textBox39.TabIndex = 212;
+            this.tb_totalDeposit.Location = new System.Drawing.Point(846, 241);
+            this.tb_totalDeposit.Name = "tb_totalDeposit";
+            this.tb_totalDeposit.Size = new System.Drawing.Size(100, 20);
+            this.tb_totalDeposit.TabIndex = 212;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(854, 195);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 13);
+            this.label3.Size = new System.Drawing.Size(84, 18);
             this.label3.TabIndex = 211;
             this.label3.Text = "สรุปเงินปันผล";
             // 
-            // button1
+            // but_submit_1
             // 
-            this.button1.Location = new System.Drawing.Point(137, 476);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 258;
-            this.button1.Text = "ตกลง";
-            this.button1.UseVisualStyleBackColor = true;
+            this.but_submit_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_submit_1.Location = new System.Drawing.Point(137, 476);
+            this.but_submit_1.Name = "but_submit_1";
+            this.but_submit_1.Size = new System.Drawing.Size(75, 23);
+            this.but_submit_1.TabIndex = 258;
+            this.but_submit_1.Text = "ตกลง";
+            this.but_submit_1.UseVisualStyleBackColor = true;
             // 
             // label27
             // 
             this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(288, 423);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(26, 13);
+            this.label27.Size = new System.Drawing.Size(28, 16);
             this.label27.TabIndex = 257;
             this.label27.Text = "บาท";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(288, 397);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(26, 13);
+            this.label24.Size = new System.Drawing.Size(28, 16);
             this.label24.TabIndex = 256;
             this.label24.Text = "บาท";
             // 
             // label25
             // 
             this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(288, 371);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(26, 13);
+            this.label25.Size = new System.Drawing.Size(28, 16);
             this.label25.TabIndex = 255;
             this.label25.Text = "บาท";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(288, 345);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(26, 13);
+            this.label22.Size = new System.Drawing.Size(28, 16);
             this.label22.TabIndex = 254;
             this.label22.Text = "บาท";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
+            this.label23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(288, 319);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(26, 13);
+            this.label23.Size = new System.Drawing.Size(28, 16);
             this.label23.TabIndex = 253;
             this.label23.Text = "บาท";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(288, 248);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(26, 13);
+            this.label21.Size = new System.Drawing.Size(28, 16);
             this.label21.TabIndex = 252;
             this.label21.Text = "บาท";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(288, 176);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(26, 13);
+            this.label20.Size = new System.Drawing.Size(28, 16);
             this.label20.TabIndex = 251;
             this.label20.Text = "บาท";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(288, 202);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(15, 13);
+            this.label19.Size = new System.Drawing.Size(20, 16);
             this.label19.TabIndex = 250;
             this.label19.Text = "%";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(161, 345);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(15, 13);
+            this.label18.Size = new System.Drawing.Size(20, 16);
             this.label18.TabIndex = 249;
             this.label18.Text = "%";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(161, 371);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(15, 13);
+            this.label17.Size = new System.Drawing.Size(20, 16);
             this.label17.TabIndex = 248;
             this.label17.Text = "%";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(161, 423);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(15, 13);
+            this.label16.Size = new System.Drawing.Size(20, 16);
             this.label16.TabIndex = 247;
             this.label16.Text = "%";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(161, 397);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(15, 13);
+            this.label15.Size = new System.Drawing.Size(20, 16);
             this.label15.TabIndex = 246;
             this.label15.Text = "%";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(161, 319);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(15, 13);
+            this.label14.Size = new System.Drawing.Size(20, 16);
             this.label14.TabIndex = 245;
             this.label14.Text = "%";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(67, 423);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(50, 13);
+            this.label13.Size = new System.Drawing.Size(52, 16);
             this.label13.TabIndex = 244;
             this.label13.Text = "สวัสดิการ";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(14, 341);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(103, 13);
+            this.label12.Size = new System.Drawing.Size(100, 16);
             this.label12.TabIndex = 243;
             this.label12.Text = "ค่าตอบแทนพนักงาน";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(50, 367);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(67, 13);
+            this.label11.Size = new System.Drawing.Size(67, 16);
             this.label11.TabIndex = 242;
             this.label11.Text = "ปันผลสมาชิก";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(29, 393);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 13);
+            this.label10.Size = new System.Drawing.Size(87, 16);
             this.label10.TabIndex = 241;
             this.label10.Text = "ประกันความเสี่ยง";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(69, 319);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 13);
+            this.label9.Size = new System.Drawing.Size(45, 16);
             this.label9.TabIndex = 240;
             this.label9.Text = "เฉลี่ยคืน";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(120, 162);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(111, 13);
+            this.label8.Size = new System.Drawing.Size(101, 16);
             this.label8.TabIndex = 239;
             this.label8.Text = "แจกแจงดอกเบี้ยเงินกู้";
             // 
-            // textBox12
+            // tb_avgWelfare_1
             // 
-            this.textBox12.Location = new System.Drawing.Point(126, 416);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(32, 20);
-            this.textBox12.TabIndex = 238;
+            this.tb_avgWelfare_1.Location = new System.Drawing.Point(126, 416);
+            this.tb_avgWelfare_1.Name = "tb_avgWelfare_1";
+            this.tb_avgWelfare_1.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgWelfare_1.TabIndex = 238;
             // 
-            // textBox13
+            // tb_avgInsure_1
             // 
-            this.textBox13.Location = new System.Drawing.Point(126, 390);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(32, 20);
-            this.textBox13.TabIndex = 237;
+            this.tb_avgInsure_1.Location = new System.Drawing.Point(126, 390);
+            this.tb_avgInsure_1.Name = "tb_avgInsure_1";
+            this.tb_avgInsure_1.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgInsure_1.TabIndex = 237;
             // 
-            // textBox14
+            // tb_avgDevidend_1
             // 
-            this.textBox14.Location = new System.Drawing.Point(126, 364);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(32, 20);
-            this.textBox14.TabIndex = 236;
+            this.tb_avgDevidend_1.Location = new System.Drawing.Point(126, 364);
+            this.tb_avgDevidend_1.Name = "tb_avgDevidend_1";
+            this.tb_avgDevidend_1.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgDevidend_1.TabIndex = 236;
             // 
-            // textBox15
+            // tb_avgWage_1
             // 
-            this.textBox15.Location = new System.Drawing.Point(126, 338);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(32, 20);
-            this.textBox15.TabIndex = 235;
+            this.tb_avgWage_1.Location = new System.Drawing.Point(126, 338);
+            this.tb_avgWage_1.Name = "tb_avgWage_1";
+            this.tb_avgWage_1.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgWage_1.TabIndex = 235;
             // 
-            // textBox16
+            // tb_avgPayback_1
             // 
-            this.textBox16.Location = new System.Drawing.Point(126, 312);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(32, 20);
-            this.textBox16.TabIndex = 234;
+            this.tb_avgPayback_1.Location = new System.Drawing.Point(126, 312);
+            this.tb_avgPayback_1.Name = "tb_avgPayback_1";
+            this.tb_avgPayback_1.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgPayback_1.TabIndex = 234;
             // 
-            // textBox3
+            // tb_welfare_1
             // 
-            this.textBox3.Location = new System.Drawing.Point(182, 416);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 233;
+            this.tb_welfare_1.Location = new System.Drawing.Point(182, 416);
+            this.tb_welfare_1.Name = "tb_welfare_1";
+            this.tb_welfare_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_welfare_1.TabIndex = 233;
             // 
-            // textBox11
+            // tb_insure_1
             // 
-            this.textBox11.Location = new System.Drawing.Point(182, 390);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 232;
+            this.tb_insure_1.Location = new System.Drawing.Point(182, 390);
+            this.tb_insure_1.Name = "tb_insure_1";
+            this.tb_insure_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_insure_1.TabIndex = 232;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(77, 202);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(71, 13);
+            this.label7.Size = new System.Drawing.Size(65, 16);
             this.label7.TabIndex = 231;
             this.label7.Text = "ดอกเบี้ยเงินกู้";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(108, 176);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
+            this.label6.Size = new System.Drawing.Size(38, 16);
             this.label6.TabIndex = 230;
             this.label6.Text = "เงินต้น";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(102, 248);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
+            this.label2.Size = new System.Drawing.Size(43, 16);
             this.label2.TabIndex = 229;
             this.label2.Text = "ดอกเบี้ย";
             // 
-            // textBox9
+            // tb_devidend_1
             // 
-            this.textBox9.Location = new System.Drawing.Point(182, 364);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 228;
+            this.tb_devidend_1.Location = new System.Drawing.Point(182, 364);
+            this.tb_devidend_1.Name = "tb_devidend_1";
+            this.tb_devidend_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_devidend_1.TabIndex = 228;
             // 
-            // textBox10
+            // tb_wage_1
             // 
-            this.textBox10.Location = new System.Drawing.Point(182, 338);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 227;
+            this.tb_wage_1.Location = new System.Drawing.Point(182, 338);
+            this.tb_wage_1.Name = "tb_wage_1";
+            this.tb_wage_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_wage_1.TabIndex = 227;
             // 
-            // textBox7
+            // tb_payback_1
             // 
-            this.textBox7.Location = new System.Drawing.Point(182, 312);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 226;
+            this.tb_payback_1.Location = new System.Drawing.Point(182, 312);
+            this.tb_payback_1.Name = "tb_payback_1";
+            this.tb_payback_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_payback_1.TabIndex = 226;
             // 
-            // textBox8
+            // tb_perInterest_1
             // 
-            this.textBox8.Location = new System.Drawing.Point(232, 195);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(50, 20);
-            this.textBox8.TabIndex = 225;
+            this.tb_perInterest_1.Location = new System.Drawing.Point(232, 195);
+            this.tb_perInterest_1.Name = "tb_perInterest_1";
+            this.tb_perInterest_1.Size = new System.Drawing.Size(50, 20);
+            this.tb_perInterest_1.TabIndex = 225;
             // 
-            // textBox4
+            // tb_loanInterest_1
             // 
-            this.textBox4.Location = new System.Drawing.Point(182, 241);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 224;
+            this.tb_loanInterest_1.Location = new System.Drawing.Point(182, 241);
+            this.tb_loanInterest_1.Name = "tb_loanInterest_1";
+            this.tb_loanInterest_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_loanInterest_1.TabIndex = 224;
             // 
-            // textBox1
+            // tb_princLoan_1
             // 
-            this.textBox1.Location = new System.Drawing.Point(182, 169);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 223;
+            this.tb_princLoan_1.Location = new System.Drawing.Point(182, 169);
+            this.tb_princLoan_1.Name = "tb_princLoan_1";
+            this.tb_princLoan_1.Size = new System.Drawing.Size(100, 20);
+            this.tb_princLoan_1.TabIndex = 223;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(136, 17);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 13);
+            this.label5.Size = new System.Drawing.Size(75, 18);
             this.label5.TabIndex = 222;
             this.label5.Text = "เงินกู้บัญชี 1";
             // 
-            // button2
+            // but_submit_2
             // 
-            this.button2.Location = new System.Drawing.Point(461, 476);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 295;
-            this.button2.Text = "ตกลง";
-            this.button2.UseVisualStyleBackColor = true;
+            this.but_submit_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.but_submit_2.Location = new System.Drawing.Point(461, 476);
+            this.but_submit_2.Name = "but_submit_2";
+            this.but_submit_2.Size = new System.Drawing.Size(75, 23);
+            this.but_submit_2.TabIndex = 295;
+            this.but_submit_2.Text = "ตกลง";
+            this.but_submit_2.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(612, 423);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.Size = new System.Drawing.Size(28, 16);
             this.label1.TabIndex = 294;
             this.label1.Text = "บาท";
             // 
@@ -717,9 +795,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(612, 397);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.Size = new System.Drawing.Size(28, 16);
             this.label4.TabIndex = 293;
             this.label4.Text = "บาท";
             // 
@@ -727,9 +806,10 @@
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(612, 371);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(26, 13);
+            this.label26.Size = new System.Drawing.Size(28, 16);
             this.label26.TabIndex = 292;
             this.label26.Text = "บาท";
             // 
@@ -737,9 +817,10 @@
             // 
             this.label28.AutoSize = true;
             this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(612, 345);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(26, 13);
+            this.label28.Size = new System.Drawing.Size(28, 16);
             this.label28.TabIndex = 291;
             this.label28.Text = "บาท";
             // 
@@ -747,9 +828,10 @@
             // 
             this.label29.AutoSize = true;
             this.label29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(612, 319);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(26, 13);
+            this.label29.Size = new System.Drawing.Size(28, 16);
             this.label29.TabIndex = 290;
             this.label29.Text = "บาท";
             // 
@@ -757,9 +839,10 @@
             // 
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(612, 248);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(26, 13);
+            this.label30.Size = new System.Drawing.Size(28, 16);
             this.label30.TabIndex = 289;
             this.label30.Text = "บาท";
             // 
@@ -767,9 +850,10 @@
             // 
             this.label31.AutoSize = true;
             this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(612, 176);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(26, 13);
+            this.label31.Size = new System.Drawing.Size(28, 16);
             this.label31.TabIndex = 288;
             this.label31.Text = "บาท";
             // 
@@ -777,9 +861,10 @@
             // 
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(612, 202);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(15, 13);
+            this.label32.Size = new System.Drawing.Size(20, 16);
             this.label32.TabIndex = 287;
             this.label32.Text = "%";
             // 
@@ -787,9 +872,10 @@
             // 
             this.label33.AutoSize = true;
             this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(485, 345);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(15, 13);
+            this.label33.Size = new System.Drawing.Size(20, 16);
             this.label33.TabIndex = 286;
             this.label33.Text = "%";
             // 
@@ -797,9 +883,10 @@
             // 
             this.label34.AutoSize = true;
             this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(485, 371);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(15, 13);
+            this.label34.Size = new System.Drawing.Size(20, 16);
             this.label34.TabIndex = 285;
             this.label34.Text = "%";
             // 
@@ -807,9 +894,10 @@
             // 
             this.label35.AutoSize = true;
             this.label35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(485, 423);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(15, 13);
+            this.label35.Size = new System.Drawing.Size(20, 16);
             this.label35.TabIndex = 284;
             this.label35.Text = "%";
             // 
@@ -817,9 +905,10 @@
             // 
             this.label36.AutoSize = true;
             this.label36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(485, 397);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(15, 13);
+            this.label36.Size = new System.Drawing.Size(20, 16);
             this.label36.TabIndex = 283;
             this.label36.Text = "%";
             // 
@@ -827,9 +916,10 @@
             // 
             this.label37.AutoSize = true;
             this.label37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(485, 319);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(15, 13);
+            this.label37.Size = new System.Drawing.Size(20, 16);
             this.label37.TabIndex = 282;
             this.label37.Text = "%";
             // 
@@ -837,9 +927,10 @@
             // 
             this.label38.AutoSize = true;
             this.label38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(391, 423);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(50, 13);
+            this.label38.Size = new System.Drawing.Size(52, 16);
             this.label38.TabIndex = 281;
             this.label38.Text = "สวัสดิการ";
             // 
@@ -847,9 +938,10 @@
             // 
             this.label39.AutoSize = true;
             this.label39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(338, 341);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(103, 13);
+            this.label39.Size = new System.Drawing.Size(100, 16);
             this.label39.TabIndex = 280;
             this.label39.Text = "ค่าตอบแทนพนักงาน";
             // 
@@ -857,9 +949,10 @@
             // 
             this.label40.AutoSize = true;
             this.label40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(374, 367);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(67, 13);
+            this.label40.Size = new System.Drawing.Size(67, 16);
             this.label40.TabIndex = 279;
             this.label40.Text = "ปันผลสมาชิก";
             // 
@@ -867,9 +960,10 @@
             // 
             this.label41.AutoSize = true;
             this.label41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(353, 393);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(88, 13);
+            this.label41.Size = new System.Drawing.Size(87, 16);
             this.label41.TabIndex = 278;
             this.label41.Text = "ประกันความเสี่ยง";
             // 
@@ -877,9 +971,10 @@
             // 
             this.label42.AutoSize = true;
             this.label42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.Location = new System.Drawing.Point(393, 319);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(48, 13);
+            this.label42.Size = new System.Drawing.Size(45, 16);
             this.label42.TabIndex = 277;
             this.label42.Text = "เฉลี่ยคืน";
             // 
@@ -887,68 +982,70 @@
             // 
             this.label43.AutoSize = true;
             this.label43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(447, 285);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(111, 13);
+            this.label43.Size = new System.Drawing.Size(101, 16);
             this.label43.TabIndex = 276;
             this.label43.Text = "แจกแจงดอกเบี้ยเงินกู้";
             // 
-            // textBox2
+            // tb_avgWelfare_2
             // 
-            this.textBox2.Location = new System.Drawing.Point(450, 416);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(32, 20);
-            this.textBox2.TabIndex = 275;
+            this.tb_avgWelfare_2.Location = new System.Drawing.Point(450, 416);
+            this.tb_avgWelfare_2.Name = "tb_avgWelfare_2";
+            this.tb_avgWelfare_2.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgWelfare_2.TabIndex = 275;
             // 
-            // textBox5
+            // tb_avgInsure_2
             // 
-            this.textBox5.Location = new System.Drawing.Point(450, 390);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(32, 20);
-            this.textBox5.TabIndex = 274;
+            this.tb_avgInsure_2.Location = new System.Drawing.Point(450, 390);
+            this.tb_avgInsure_2.Name = "tb_avgInsure_2";
+            this.tb_avgInsure_2.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgInsure_2.TabIndex = 274;
             // 
-            // textBox6
+            // tb_avgDevidend_2
             // 
-            this.textBox6.Location = new System.Drawing.Point(450, 364);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(32, 20);
-            this.textBox6.TabIndex = 273;
+            this.tb_avgDevidend_2.Location = new System.Drawing.Point(450, 364);
+            this.tb_avgDevidend_2.Name = "tb_avgDevidend_2";
+            this.tb_avgDevidend_2.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgDevidend_2.TabIndex = 273;
             // 
-            // textBox17
+            // tb_avgWage_2
             // 
-            this.textBox17.Location = new System.Drawing.Point(450, 338);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(32, 20);
-            this.textBox17.TabIndex = 272;
+            this.tb_avgWage_2.Location = new System.Drawing.Point(450, 338);
+            this.tb_avgWage_2.Name = "tb_avgWage_2";
+            this.tb_avgWage_2.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgWage_2.TabIndex = 272;
             // 
-            // textBox18
+            // tb_avgPayback_2
             // 
-            this.textBox18.Location = new System.Drawing.Point(450, 312);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(32, 20);
-            this.textBox18.TabIndex = 271;
+            this.tb_avgPayback_2.Location = new System.Drawing.Point(450, 312);
+            this.tb_avgPayback_2.Name = "tb_avgPayback_2";
+            this.tb_avgPayback_2.Size = new System.Drawing.Size(32, 20);
+            this.tb_avgPayback_2.TabIndex = 271;
             // 
-            // textBox19
+            // tb_welfare_2
             // 
-            this.textBox19.Location = new System.Drawing.Point(506, 416);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 20);
-            this.textBox19.TabIndex = 270;
+            this.tb_welfare_2.Location = new System.Drawing.Point(506, 416);
+            this.tb_welfare_2.Name = "tb_welfare_2";
+            this.tb_welfare_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_welfare_2.TabIndex = 270;
             // 
-            // textBox20
+            // tb_insure_2
             // 
-            this.textBox20.Location = new System.Drawing.Point(506, 390);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 20);
-            this.textBox20.TabIndex = 269;
+            this.tb_insure_2.Location = new System.Drawing.Point(506, 390);
+            this.tb_insure_2.Name = "tb_insure_2";
+            this.tb_insure_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_insure_2.TabIndex = 269;
             // 
             // label44
             // 
             this.label44.AutoSize = true;
             this.label44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.Location = new System.Drawing.Point(401, 202);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(71, 13);
+            this.label44.Size = new System.Drawing.Size(65, 16);
             this.label44.TabIndex = 268;
             this.label44.Text = "ดอกเบี้ยเงินกู้";
             // 
@@ -956,9 +1053,10 @@
             // 
             this.label45.AutoSize = true;
             this.label45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(432, 176);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(40, 13);
+            this.label45.Size = new System.Drawing.Size(38, 16);
             this.label45.TabIndex = 267;
             this.label45.Text = "เงินต้น";
             // 
@@ -966,61 +1064,63 @@
             // 
             this.label46.AutoSize = true;
             this.label46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.Location = new System.Drawing.Point(426, 248);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(46, 13);
+            this.label46.Size = new System.Drawing.Size(43, 16);
             this.label46.TabIndex = 266;
             this.label46.Text = "ดอกเบี้ย";
             // 
-            // textBox21
+            // tb_devidend_2
             // 
-            this.textBox21.Location = new System.Drawing.Point(506, 364);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(100, 20);
-            this.textBox21.TabIndex = 265;
+            this.tb_devidend_2.Location = new System.Drawing.Point(506, 364);
+            this.tb_devidend_2.Name = "tb_devidend_2";
+            this.tb_devidend_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_devidend_2.TabIndex = 265;
             // 
-            // textBox22
+            // tb_wage_2
             // 
-            this.textBox22.Location = new System.Drawing.Point(506, 338);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(100, 20);
-            this.textBox22.TabIndex = 264;
+            this.tb_wage_2.Location = new System.Drawing.Point(506, 338);
+            this.tb_wage_2.Name = "tb_wage_2";
+            this.tb_wage_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_wage_2.TabIndex = 264;
             // 
-            // textBox23
+            // tb_payback_2
             // 
-            this.textBox23.Location = new System.Drawing.Point(506, 312);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(100, 20);
-            this.textBox23.TabIndex = 263;
+            this.tb_payback_2.Location = new System.Drawing.Point(506, 312);
+            this.tb_payback_2.Name = "tb_payback_2";
+            this.tb_payback_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_payback_2.TabIndex = 263;
             // 
-            // textBox24
+            // tb_perInterest_2
             // 
-            this.textBox24.Location = new System.Drawing.Point(556, 195);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(50, 20);
-            this.textBox24.TabIndex = 262;
+            this.tb_perInterest_2.Location = new System.Drawing.Point(556, 195);
+            this.tb_perInterest_2.Name = "tb_perInterest_2";
+            this.tb_perInterest_2.Size = new System.Drawing.Size(50, 20);
+            this.tb_perInterest_2.TabIndex = 262;
             // 
-            // textBox25
+            // tb_loanInterest_2
             // 
-            this.textBox25.Location = new System.Drawing.Point(506, 241);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(100, 20);
-            this.textBox25.TabIndex = 261;
+            this.tb_loanInterest_2.Location = new System.Drawing.Point(506, 241);
+            this.tb_loanInterest_2.Name = "tb_loanInterest_2";
+            this.tb_loanInterest_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_loanInterest_2.TabIndex = 261;
             // 
-            // textBox26
+            // tb_princLoan_2
             // 
-            this.textBox26.Location = new System.Drawing.Point(506, 169);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(100, 20);
-            this.textBox26.TabIndex = 260;
+            this.tb_princLoan_2.Location = new System.Drawing.Point(506, 169);
+            this.tb_princLoan_2.Name = "tb_princLoan_2";
+            this.tb_princLoan_2.Size = new System.Drawing.Size(100, 20);
+            this.tb_princLoan_2.TabIndex = 260;
             // 
             // label47
             // 
             this.label47.AutoSize = true;
             this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.Location = new System.Drawing.Point(134, 17);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(64, 13);
+            this.label47.Size = new System.Drawing.Size(75, 18);
             this.label47.TabIndex = 259;
             this.label47.Text = "เงินกู้บัญชี 2";
             // 
@@ -1041,6 +1141,7 @@
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupBox2.Controls.Add(this.label47);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(338, 106);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(315, 416);
@@ -1074,7 +1175,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 601);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.but_submit_2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label26);
@@ -1094,23 +1195,23 @@
             this.Controls.Add(this.label41);
             this.Controls.Add(this.label42);
             this.Controls.Add(this.label43);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox20);
+            this.Controls.Add(this.tb_avgWelfare_2);
+            this.Controls.Add(this.tb_avgInsure_2);
+            this.Controls.Add(this.tb_avgDevidend_2);
+            this.Controls.Add(this.tb_avgWage_2);
+            this.Controls.Add(this.tb_avgPayback_2);
+            this.Controls.Add(this.tb_welfare_2);
+            this.Controls.Add(this.tb_insure_2);
             this.Controls.Add(this.label44);
             this.Controls.Add(this.label45);
             this.Controls.Add(this.label46);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tb_devidend_2);
+            this.Controls.Add(this.tb_wage_2);
+            this.Controls.Add(this.tb_payback_2);
+            this.Controls.Add(this.tb_perInterest_2);
+            this.Controls.Add(this.tb_loanInterest_2);
+            this.Controls.Add(this.tb_princLoan_2);
+            this.Controls.Add(this.but_submit_1);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
@@ -1129,32 +1230,32 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.tb_avgWelfare_1);
+            this.Controls.Add(this.tb_avgInsure_1);
+            this.Controls.Add(this.tb_avgDevidend_1);
+            this.Controls.Add(this.tb_avgWage_1);
+            this.Controls.Add(this.tb_avgPayback_1);
+            this.Controls.Add(this.tb_welfare_1);
+            this.Controls.Add(this.tb_insure_1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.tb_devidend_1);
+            this.Controls.Add(this.tb_wage_1);
+            this.Controls.Add(this.tb_payback_1);
+            this.Controls.Add(this.tb_perInterest_1);
+            this.Controls.Add(this.tb_loanInterest_1);
+            this.Controls.Add(this.tb_princLoan_1);
+            this.Controls.Add(this.but_submit_3);
             this.Controls.Add(this.label54);
             this.Controls.Add(this.label55);
             this.Controls.Add(this.label56);
             this.Controls.Add(this.label68);
             this.Controls.Add(this.label69);
             this.Controls.Add(this.label70);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox39);
+            this.Controls.Add(this.tb_perLoanInterest);
+            this.Controls.Add(this.tb_totalDividend);
+            this.Controls.Add(this.tb_totalDeposit);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.groupBox1);
@@ -1162,6 +1263,7 @@
             this.Controls.Add(this.groupBox3);
             this.Name = "Dividend";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "คำนวณเงินปันผล";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -1193,18 +1295,18 @@
         private System.Windows.Forms.ToolStripMenuItem ขอมลดอกเบยปนผลToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem แจกแจงรายการปนผลToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button but_submit_3;
         private System.Windows.Forms.Label label54;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label label56;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label69;
         private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.TextBox tb_perLoanInterest;
+        private System.Windows.Forms.TextBox tb_totalDividend;
+        private System.Windows.Forms.TextBox tb_totalDeposit;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button but_submit_1;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
@@ -1224,24 +1326,24 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox tb_avgWelfare_1;
+        private System.Windows.Forms.TextBox tb_avgInsure_1;
+        private System.Windows.Forms.TextBox tb_avgDevidend_1;
+        private System.Windows.Forms.TextBox tb_avgWage_1;
+        private System.Windows.Forms.TextBox tb_avgPayback_1;
+        private System.Windows.Forms.TextBox tb_welfare_1;
+        private System.Windows.Forms.TextBox tb_insure_1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tb_devidend_1;
+        private System.Windows.Forms.TextBox tb_wage_1;
+        private System.Windows.Forms.TextBox tb_payback_1;
+        private System.Windows.Forms.TextBox tb_perInterest_1;
+        private System.Windows.Forms.TextBox tb_loanInterest_1;
+        private System.Windows.Forms.TextBox tb_princLoan_1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button but_submit_2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label26;
@@ -1261,22 +1363,22 @@
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox tb_avgWelfare_2;
+        private System.Windows.Forms.TextBox tb_avgInsure_2;
+        private System.Windows.Forms.TextBox tb_avgDevidend_2;
+        private System.Windows.Forms.TextBox tb_avgWage_2;
+        private System.Windows.Forms.TextBox tb_avgPayback_2;
+        private System.Windows.Forms.TextBox tb_welfare_2;
+        private System.Windows.Forms.TextBox tb_insure_2;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox tb_devidend_2;
+        private System.Windows.Forms.TextBox tb_wage_2;
+        private System.Windows.Forms.TextBox tb_payback_2;
+        private System.Windows.Forms.TextBox tb_perInterest_2;
+        private System.Windows.Forms.TextBox tb_loanInterest_2;
+        private System.Windows.Forms.TextBox tb_princLoan_2;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.GroupBox groupBox1;

@@ -1,6 +1,6 @@
 ﻿namespace Projects
 {
-    partial class ShowDataAccout1
+    partial class Print
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tb_search = new System.Windows.Forms.TextBox();
-            this.but_search = new System.Windows.Forms.Button();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.สมาชกToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -49,53 +46,20 @@
             this.ขอมลดอกเบยปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.แจกแจงรายการปนผลToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.but_print = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // reportViewer1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(9, 182);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(987, 427);
-            this.dataGridView1.TabIndex = 204;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(234, 148);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 16);
-            this.label2.TabIndex = 203;
-            this.label2.Text = "ค้นหาสมาชิก";
-            // 
-            // tb_search
-            // 
-            this.tb_search.Location = new System.Drawing.Point(306, 143);
-            this.tb_search.Name = "tb_search";
-            this.tb_search.Size = new System.Drawing.Size(100, 20);
-            this.tb_search.TabIndex = 202;
-            // 
-            // but_search
-            // 
-            this.but_search.BackColor = System.Drawing.Color.Transparent;
-            this.but_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.but_search.Location = new System.Drawing.Point(426, 141);
-            this.but_search.Name = "but_search";
-            this.but_search.Size = new System.Drawing.Size(75, 23);
-            this.but_search.TabIndex = 201;
-            this.but_search.Text = "ค้นหา";
-            this.but_search.UseVisualStyleBackColor = false;
-            this.but_search.Click += new System.EventHandler(this.but_search_Click);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Projects.Report1.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(12, 114);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(716, 373);
+            this.reportViewer1.TabIndex = 0;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem,
             this.สมาชกToolStripMenuItem,
@@ -105,8 +69,8 @@
             this.ออกจากระบบToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1008, 108);
-            this.menuStrip1.TabIndex = 199;
+            this.menuStrip1.Size = new System.Drawing.Size(740, 108);
+            this.menuStrip1.TabIndex = 179;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // menuToolStripMenuItem
@@ -166,7 +130,7 @@
             // 
             this.ขอมมลเงนฝากToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ขอมมลเงนฝากToolStripMenuItem.Name = "ขอมมลเงนฝากToolStripMenuItem";
-            this.ขอมมลเงนฝากToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.ขอมมลเงนฝากToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ขอมมลเงนฝากToolStripMenuItem.Text = "ข้อมูลเงินฝาก";
             this.ขอมมลเงนฝากToolStripMenuItem.Click += new System.EventHandler(this.ขอมมลเงนฝากToolStripMenuItem_Click);
             // 
@@ -174,7 +138,7 @@
             // 
             this.ฝากถอนเงนToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ฝากถอนเงนToolStripMenuItem.Name = "ฝากถอนเงนToolStripMenuItem";
-            this.ฝากถอนเงนToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.ฝากถอนเงนToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.ฝากถอนเงนToolStripMenuItem.Text = "ฝาก - ถอนเงิน";
             this.ฝากถอนเงนToolStripMenuItem.Click += new System.EventHandler(this.ฝากถอนเงนToolStripMenuItem_Click);
             // 
@@ -265,60 +229,19 @@
             this.ออกจากระบบToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(64, 127);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 16);
-            this.label1.TabIndex = 207;
-            this.label1.Text = "รายชื่อผู้กู้ทั้งหมด";
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::Projects.Properties.Resources.add_icon;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(932, 114);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(64, 62);
-            this.button3.TabIndex = 206;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // but_print
-            // 
-            this.but_print.BackgroundImage = global::Projects.Properties.Resources.print_icon;
-            this.but_print.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.but_print.Location = new System.Drawing.Point(862, 114);
-            this.but_print.Name = "but_print";
-            this.but_print.Size = new System.Drawing.Size(64, 62);
-            this.but_print.TabIndex = 205;
-            this.but_print.UseVisualStyleBackColor = true;
-            this.but_print.Click += new System.EventHandler(this.but_print_Click);
-            // 
-            // ShowDataAccout1
+            // Print
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projects.Properties.Resources.background4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1008, 619);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.but_print);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.tb_search);
-            this.Controls.Add(this.but_search);
+            this.ClientSize = new System.Drawing.Size(740, 511);
             this.Controls.Add(this.menuStrip1);
-            this.Name = "ShowDataAccout1";
-            this.ShowIcon = false;
+            this.Controls.Add(this.reportViewer1);
+            this.Name = "Print";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ข้อมูลเงินกู้บัญชี 1";
-            this.Load += new System.EventHandler(this.ShowDataAccout1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Text = "Print";
+            this.Load += new System.EventHandler(this.Print_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -328,12 +251,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button but_print;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox tb_search;
-        private System.Windows.Forms.Button but_search;
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem สมาชกToolStripMenuItem;
@@ -351,6 +269,5 @@
         private System.Windows.Forms.ToolStripMenuItem ขอมลดอกเบยปนผลToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem แจกแจงรายการปนผลToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
-        private System.Windows.Forms.Label label1;
     }
 }

@@ -55,13 +55,14 @@
             // 
             // but_Manager
             // 
+            this.but_Manager.BackColor = System.Drawing.Color.Transparent;
             this.but_Manager.BackgroundImage = global::Projects.Properties.Resources.login_button1;
             this.but_Manager.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_Manager.Location = new System.Drawing.Point(112, 128);
             this.but_Manager.Name = "but_Manager";
             this.but_Manager.Size = new System.Drawing.Size(152, 58);
             this.but_Manager.TabIndex = 2;
-            this.but_Manager.UseVisualStyleBackColor = true;
+            this.but_Manager.UseVisualStyleBackColor = false;
             this.but_Manager.Click += new System.EventHandler(this.but_Manager_Click);
             // 
             // LoginManager2
@@ -76,6 +77,7 @@
             this.Controls.Add(this.text_manager);
             this.Name = "LoginManager2";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "เข้าสู่ระบบผู้จัดการ";
             this.ResumeLayout(false);
             this.PerformLayout();

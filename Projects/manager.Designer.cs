@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manager));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.muneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.พนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -37,41 +38,43 @@
             this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.manPassword = new System.Windows.Forms.TextBox();
+            this.manUsername = new System.Windows.Forms.TextBox();
+            this.but_delete = new System.Windows.Forms.Button();
+            this.but_edit = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.manLastname = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.manYear = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.manVillageNo = new System.Windows.Forms.TextBox();
+            this.but_save = new System.Windows.Forms.Button();
+            this.com_month = new System.Windows.Forms.ComboBox();
+            this.com_day = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.manPostalcode = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.manProvince = new System.Windows.Forms.TextBox();
+            this.manDistrict = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.manSubdistrict = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.manVillage = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.manHouseNo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.manNoID = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.manName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button9 = new System.Windows.Forms.Button();
+            this.com_num = new System.Windows.Forms.ComboBox();
+            this.but_add = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
+            this.manConfirmPassword = new System.Windows.Forms.TextBox();
+            this.com_status = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -83,482 +86,384 @@
             this.พนกงานToolStripMenuItem,
             this.ผจดการToolStripMenuItem,
             this.ออกจากระบบToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1008, 103);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // muneToolStripMenuItem
             // 
-            this.muneToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            resources.ApplyResources(this.muneToolStripMenuItem, "muneToolStripMenuItem");
             this.muneToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
-            this.muneToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.muneToolStripMenuItem.Name = "muneToolStripMenuItem";
-            this.muneToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.muneToolStripMenuItem.Text = "Mune";
-            this.muneToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.muneToolStripMenuItem.Click += new System.EventHandler(this.muneToolStripMenuItem_Click);
             // 
             // พนกงานToolStripMenuItem
             // 
-            this.พนกงานToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            resources.ApplyResources(this.พนกงานToolStripMenuItem, "พนกงานToolStripMenuItem");
             this.พนกงานToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.เพมพนกงานToolStripMenuItem,
             this.ขอมลพนกงานToolStripMenuItem});
             this.พนกงานToolStripMenuItem.Image = global::Projects.Properties.Resources.employee_icon;
-            this.พนกงานToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.พนกงานToolStripMenuItem.Name = "พนกงานToolStripMenuItem";
-            this.พนกงานToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.พนกงานToolStripMenuItem.Text = "พนักงาน";
-            this.พนกงานToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // เพมพนกงานToolStripMenuItem
             // 
+            resources.ApplyResources(this.เพมพนกงานToolStripMenuItem, "เพมพนกงานToolStripMenuItem");
             this.เพมพนกงานToolStripMenuItem.Name = "เพมพนกงานToolStripMenuItem";
-            this.เพมพนกงานToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.เพมพนกงานToolStripMenuItem.Text = "เพิ่มพนักงาน";
             this.เพมพนกงานToolStripMenuItem.Click += new System.EventHandler(this.เพมพนกงานToolStripMenuItem_Click);
             // 
             // ขอมลพนกงานToolStripMenuItem
             // 
+            resources.ApplyResources(this.ขอมลพนกงานToolStripMenuItem, "ขอมลพนกงานToolStripMenuItem");
             this.ขอมลพนกงานToolStripMenuItem.Name = "ขอมลพนกงานToolStripMenuItem";
-            this.ขอมลพนกงานToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
-            this.ขอมลพนกงานToolStripMenuItem.Text = "ข้อมูลพนักงาน";
             this.ขอมลพนกงานToolStripMenuItem.Click += new System.EventHandler(this.ขอมลพนกงานToolStripMenuItem_Click);
             // 
             // ผจดการToolStripMenuItem
             // 
-            this.ผจดการToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            resources.ApplyResources(this.ผจดการToolStripMenuItem, "ผจดการToolStripMenuItem");
             this.ผจดการToolStripMenuItem.Image = global::Projects.Properties.Resources.manager_icon_mini;
-            this.ผจดการToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ผจดการToolStripMenuItem.Name = "ผจดการToolStripMenuItem";
-            this.ผจดการToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.ผจดการToolStripMenuItem.Text = "ผู้จัดการ";
-            this.ผจดการToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ผจดการToolStripMenuItem.Click += new System.EventHandler(this.ผจดการToolStripMenuItem_Click);
             // 
             // ออกจากระบบToolStripMenuItem
             // 
-            this.ออกจากระบบToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            resources.ApplyResources(this.ออกจากระบบToolStripMenuItem, "ออกจากระบบToolStripMenuItem");
             this.ออกจากระบบToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
-            this.ออกจากระบบToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.ออกจากระบบToolStripMenuItem.Name = "ออกจากระบบToolStripMenuItem";
-            this.ออกจากระบบToolStripMenuItem.Size = new System.Drawing.Size(92, 99);
-            this.ออกจากระบบToolStripMenuItem.Text = "ออกจากระบบ";
-            this.ออกจากระบบToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
             // 
             // label15
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(133, 236);
+            resources.ApplyResources(this.label15, "label15");
+            this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(46, 13);
-            this.label15.TabIndex = 253;
-            this.label15.Text = "รหัสผ่าน";
             // 
             // label14
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(139, 208);
+            resources.ApplyResources(this.label14, "label14");
+            this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(40, 13);
-            this.label14.TabIndex = 252;
-            this.label14.Text = "ชื่อผู้ใช้";
             // 
-            // textBox13
+            // manPassword
             // 
-            this.textBox13.Location = new System.Drawing.Point(202, 236);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(183, 20);
-            this.textBox13.TabIndex = 251;
+            resources.ApplyResources(this.manPassword, "manPassword");
+            this.manPassword.Name = "manPassword";
             // 
-            // textBox14
+            // manUsername
             // 
-            this.textBox14.Location = new System.Drawing.Point(202, 208);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(183, 20);
-            this.textBox14.TabIndex = 250;
+            resources.ApplyResources(this.manUsername, "manUsername");
+            this.manUsername.Name = "manUsername";
             // 
-            // button3
+            // but_delete
             // 
-            this.button3.BackgroundImage = global::Projects.Properties.Resources.delete_icon;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.Location = new System.Drawing.Point(328, 480);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(61, 60);
-            this.button3.TabIndex = 246;
-            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = true;
+            this.but_delete.BackgroundImage = global::Projects.Properties.Resources.delete_icon;
+            resources.ApplyResources(this.but_delete, "but_delete");
+            this.but_delete.Name = "but_delete";
+            this.but_delete.UseVisualStyleBackColor = true;
+            this.but_delete.Click += new System.EventHandler(this.but_delete_Click);
             // 
-            // button2
+            // but_edit
             // 
-            this.button2.BackgroundImage = global::Projects.Properties.Resources.edit_icon;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Location = new System.Drawing.Point(391, 480);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(61, 60);
-            this.button2.TabIndex = 245;
-            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(202, 454);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(100, 20);
-            this.textBox12.TabIndex = 244;
+            this.but_edit.BackgroundImage = global::Projects.Properties.Resources.edit_icon;
+            resources.ApplyResources(this.but_edit, "but_edit");
+            this.but_edit.Name = "but_edit";
+            this.but_edit.UseVisualStyleBackColor = true;
+            this.but_edit.Click += new System.EventHandler(this.but_edit_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(548, 127);
+            resources.ApplyResources(this.dataGridView1, "dataGridView1");
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(431, 403);
-            this.dataGridView1.TabIndex = 249;
+            this.dataGridView1.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseUp);
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(117, 454);
+            resources.ApplyResources(this.label13, "label13");
+            this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(58, 13);
-            this.label13.TabIndex = 243;
-            this.label13.Text = "สถานะภาพ";
             // 
-            // textBox2
+            // manLastname
             // 
-            this.textBox2.Location = new System.Drawing.Point(202, 140);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(183, 20);
-            this.textBox2.TabIndex = 242;
+            resources.ApplyResources(this.manLastname, "manLastname");
+            this.manLastname.Name = "manLastname";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(128, 273);
+            resources.ApplyResources(this.label12, "label12");
+            this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(51, 13);
-            this.label12.TabIndex = 241;
-            this.label12.Text = "บ้านเลขที่";
             // 
-            // textBox11
+            // manYear
             // 
-            this.textBox11.Location = new System.Drawing.Point(353, 414);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 240;
+            resources.ApplyResources(this.manYear, "manYear");
+            this.manYear.Name = "manYear";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(147, 303);
+            resources.ApplyResources(this.label11, "label11");
+            this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(28, 13);
-            this.label11.TabIndex = 239;
-            this.label11.Text = "หมู่ที่";
             // 
-            // textBox10
+            // manVillageNo
             // 
-            this.textBox10.Location = new System.Drawing.Point(202, 300);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(100, 20);
-            this.textBox10.TabIndex = 238;
+            resources.ApplyResources(this.manVillageNo, "manVillageNo");
+            this.manVillageNo.Name = "manVillageNo";
             // 
-            // button1
+            // but_save
             // 
-            this.button1.BackgroundImage = global::Projects.Properties.Resources.save_icon;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(265, 480);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(61, 60);
-            this.button1.TabIndex = 237;
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
+            this.but_save.BackgroundImage = global::Projects.Properties.Resources.save_icon;
+            resources.ApplyResources(this.but_save, "but_save");
+            this.but_save.Name = "but_save";
+            this.but_save.UseVisualStyleBackColor = true;
+            this.but_save.Click += new System.EventHandler(this.but_save_Click);
             // 
-            // comboBox3
+            // com_month
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
-            "เดือน",
-            "มกราคม",
-            "กุมภาพันธ์",
-            "มีนาคม",
-            "เมษายน",
-            "พฤษาภาคม",
-            "มิถุนายน",
-            "กรกฎาคม",
-            "สิงหาคม",
-            "กันยายน",
-            "ตุลาคม",
-            "พฤศจิกายน",
-            "ธันวาคม"});
-            this.comboBox3.Location = new System.Drawing.Point(255, 414);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(92, 21);
-            this.comboBox3.TabIndex = 236;
+            this.com_month.FormattingEnabled = true;
+            this.com_month.Items.AddRange(new object[] {
+            resources.GetString("com_month.Items"),
+            resources.GetString("com_month.Items1"),
+            resources.GetString("com_month.Items2"),
+            resources.GetString("com_month.Items3"),
+            resources.GetString("com_month.Items4"),
+            resources.GetString("com_month.Items5"),
+            resources.GetString("com_month.Items6"),
+            resources.GetString("com_month.Items7"),
+            resources.GetString("com_month.Items8"),
+            resources.GetString("com_month.Items9"),
+            resources.GetString("com_month.Items10"),
+            resources.GetString("com_month.Items11"),
+            resources.GetString("com_month.Items12")});
+            resources.ApplyResources(this.com_month, "com_month");
+            this.com_month.Name = "com_month";
             // 
-            // comboBox2
+            // com_day
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "วันที่",
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31"});
-            this.comboBox2.Location = new System.Drawing.Point(202, 414);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(47, 21);
-            this.comboBox2.TabIndex = 235;
+            this.com_day.FormattingEnabled = true;
+            this.com_day.Items.AddRange(new object[] {
+            resources.GetString("com_day.Items"),
+            resources.GetString("com_day.Items1"),
+            resources.GetString("com_day.Items2"),
+            resources.GetString("com_day.Items3"),
+            resources.GetString("com_day.Items4"),
+            resources.GetString("com_day.Items5"),
+            resources.GetString("com_day.Items6"),
+            resources.GetString("com_day.Items7"),
+            resources.GetString("com_day.Items8"),
+            resources.GetString("com_day.Items9"),
+            resources.GetString("com_day.Items10"),
+            resources.GetString("com_day.Items11"),
+            resources.GetString("com_day.Items12"),
+            resources.GetString("com_day.Items13"),
+            resources.GetString("com_day.Items14"),
+            resources.GetString("com_day.Items15"),
+            resources.GetString("com_day.Items16"),
+            resources.GetString("com_day.Items17"),
+            resources.GetString("com_day.Items18"),
+            resources.GetString("com_day.Items19"),
+            resources.GetString("com_day.Items20"),
+            resources.GetString("com_day.Items21"),
+            resources.GetString("com_day.Items22"),
+            resources.GetString("com_day.Items23"),
+            resources.GetString("com_day.Items24"),
+            resources.GetString("com_day.Items25"),
+            resources.GetString("com_day.Items26"),
+            resources.GetString("com_day.Items27"),
+            resources.GetString("com_day.Items28"),
+            resources.GetString("com_day.Items29"),
+            resources.GetString("com_day.Items30"),
+            resources.GetString("com_day.Items31")});
+            resources.ApplyResources(this.com_day, "com_day");
+            this.com_day.Name = "com_day";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(92, 417);
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(83, 13);
-            this.label10.TabIndex = 234;
-            this.label10.Text = "วัน/เดิอน/ปีเกิด";
             // 
-            // textBox9
+            // manPostalcode
             // 
-            this.textBox9.Location = new System.Drawing.Point(202, 366);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 20);
-            this.textBox9.TabIndex = 233;
+            resources.ApplyResources(this.manPostalcode, "manPostalcode");
+            this.manPostalcode.Name = "manPostalcode";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(130, 373);
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(45, 13);
-            this.label9.TabIndex = 232;
-            this.label9.Text = "รหัสปณ.";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(317, 339);
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(38, 13);
-            this.label8.TabIndex = 231;
-            this.label8.Text = "จังหวัด";
             // 
-            // textBox8
+            // manProvince
             // 
-            this.textBox8.Location = new System.Drawing.Point(364, 332);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 20);
-            this.textBox8.TabIndex = 230;
+            resources.ApplyResources(this.manProvince, "manProvince");
+            this.manProvince.Name = "manProvince";
             // 
-            // textBox7
+            // manDistrict
             // 
-            this.textBox7.Location = new System.Drawing.Point(202, 332);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 229;
+            resources.ApplyResources(this.manDistrict, "manDistrict");
+            this.manDistrict.Name = "manDistrict";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(139, 335);
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(36, 13);
-            this.label7.TabIndex = 228;
-            this.label7.Text = "อำเภอ";
             // 
-            // textBox6
+            // manSubdistrict
             // 
-            this.textBox6.Location = new System.Drawing.Point(364, 300);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 227;
+            resources.ApplyResources(this.manSubdistrict, "manSubdistrict");
+            this.manSubdistrict.Name = "manSubdistrict";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(323, 307);
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(32, 13);
-            this.label6.TabIndex = 226;
-            this.label6.Text = "ตำบล";
             // 
-            // textBox5
+            // manVillage
             // 
-            this.textBox5.Location = new System.Drawing.Point(365, 274);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 225;
+            resources.ApplyResources(this.manVillage, "manVillage");
+            this.manVillage.Name = "manVillage";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(318, 280);
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(41, 13);
-            this.label5.TabIndex = 224;
-            this.label5.Text = "หมู่บ้าน";
             // 
-            // textBox4
+            // manHouseNo
             // 
-            this.textBox4.Location = new System.Drawing.Point(202, 273);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 223;
+            resources.ApplyResources(this.manHouseNo, "manHouseNo");
+            this.manHouseNo.Name = "manHouseNo";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(62, 258);
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(27, 13);
-            this.label4.TabIndex = 222;
-            this.label4.Text = "ที่อยู่";
             // 
-            // textBox3
+            // manNoID
             // 
-            this.textBox3.Location = new System.Drawing.Point(202, 173);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(263, 20);
-            this.textBox3.TabIndex = 221;
+            resources.ApplyResources(this.manNoID, "manNoID");
+            this.manNoID.Name = "manNoID";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(82, 176);
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 13);
-            this.label3.TabIndex = 220;
-            this.label3.Text = "เลชที่บัตรประชาชน";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(133, 143);
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 13);
-            this.label2.TabIndex = 219;
-            this.label2.Text = "นามสกุล";
             // 
-            // textBox1
+            // manName
             // 
-            this.textBox1.Location = new System.Drawing.Point(202, 115);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(183, 20);
-            this.textBox1.TabIndex = 218;
+            resources.ApplyResources(this.manName, "manName");
+            this.manName.Name = "manName";
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(161, 118);
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 13);
-            this.label1.TabIndex = 217;
-            this.label1.Text = "ชื่อ";
             // 
-            // comboBox1
+            // com_num
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "",
-            "นาย",
-            "นางสาว",
-            "นาง"});
-            this.comboBox1.Location = new System.Drawing.Point(65, 115);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(71, 21);
-            this.comboBox1.TabIndex = 216;
+            this.com_num.FormattingEnabled = true;
+            this.com_num.Items.AddRange(new object[] {
+            resources.GetString("com_num.Items"),
+            resources.GetString("com_num.Items1"),
+            resources.GetString("com_num.Items2")});
+            resources.ApplyResources(this.com_num, "com_num");
+            this.com_num.Name = "com_num";
             // 
-            // button9
+            // but_add
             // 
-            this.button9.BackgroundImage = global::Projects.Properties.Resources.add_icon1;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.Location = new System.Drawing.Point(202, 480);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(61, 60);
-            this.button9.TabIndex = 254;
-            this.button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button9.UseVisualStyleBackColor = true;
+            this.but_add.BackgroundImage = global::Projects.Properties.Resources.add_icon1;
+            resources.ApplyResources(this.but_add, "but_add");
+            this.but_add.Name = "but_add";
+            this.but_add.UseVisualStyleBackColor = true;
+            this.but_add.Click += new System.EventHandler(this.but_add_Click);
+            // 
+            // label16
+            // 
+            resources.ApplyResources(this.label16, "label16");
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Name = "label16";
+            // 
+            // manConfirmPassword
+            // 
+            resources.ApplyResources(this.manConfirmPassword, "manConfirmPassword");
+            this.manConfirmPassword.Name = "manConfirmPassword";
+            // 
+            // com_status
+            // 
+            this.com_status.FormattingEnabled = true;
+            this.com_status.Items.AddRange(new object[] {
+            resources.GetString("com_status.Items"),
+            resources.GetString("com_status.Items1"),
+            resources.GetString("com_status.Items2")});
+            resources.ApplyResources(this.com_status, "com_status");
+            this.com_status.Name = "com_status";
             // 
             // Manager
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projects.Properties.Resources.background4;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1008, 601);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.com_status);
+            this.Controls.Add(this.manConfirmPassword);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.but_add);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.manPassword);
+            this.Controls.Add(this.manUsername);
+            this.Controls.Add(this.but_delete);
+            this.Controls.Add(this.but_edit);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.manLastname);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.manYear);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.manVillageNo);
+            this.Controls.Add(this.but_save);
+            this.Controls.Add(this.com_month);
+            this.Controls.Add(this.com_day);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.manPostalcode);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.manProvince);
+            this.Controls.Add(this.manDistrict);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.manSubdistrict);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.manVillage);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.manHouseNo);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.manNoID);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.manName);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.com_num);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Manager";
             this.ShowIcon = false;
-            this.Text = "ข้อมูลผู้จัดการ";
+            this.Load += new System.EventHandler(this.Manager_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -576,42 +481,44 @@
         private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox manPassword;
+        private System.Windows.Forms.TextBox manUsername;
+        private System.Windows.Forms.Button but_delete;
+        private System.Windows.Forms.Button but_edit;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox manLastname;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox manYear;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox manVillageNo;
+        private System.Windows.Forms.Button but_save;
+        private System.Windows.Forms.ComboBox com_month;
+        private System.Windows.Forms.ComboBox com_day;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox manPostalcode;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox manProvince;
+        private System.Windows.Forms.TextBox manDistrict;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox manSubdistrict;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox manVillage;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox manHouseNo;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox manNoID;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox manName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox com_num;
         private System.Windows.Forms.ToolStripMenuItem เพมพนกงานToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ขอมลพนกงานToolStripMenuItem;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button but_add;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox manConfirmPassword;
+        private System.Windows.Forms.ComboBox com_status;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,9 @@ namespace Projects
 {
     public partial class Add_Member : Form
     {
+        MySqlConnection c = new MySqlConnection("Server=localhost; database=villageFund_db; UID=root; Pwd=root;");
+        MySqlCommand cmd = new MySqlCommand();
+        
         public Add_Member()
         {
             InitializeComponent();
@@ -111,6 +115,164 @@ namespace Projects
         private void ออกจากระบบToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void but_save_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (memberNoID.Text != null)
+                {
+                    DateTime time = DateTime.Now;
+                    string time_started = time.ToString("hh:mm:ss dd-MM-yyyy");
+
+                    cmd.CommandText = @"INSERT INTO member(memTitle,memName,memLastname,memNoID,memHouseNo,memVillage,memVillageNo,
+                                                       memSubdistrict,memDistrict,memProvince,memPostalcode,memcomday,memcommonth,
+                                                       memYear,memcomstatus,memtimestarted) 
+                                    VALUES('" + this.com_num.SelectedItem
+                                    + "','" + this.memberName.Text + "','" + this.memberLastname.Text + "','" + this.memberNoID.Text
+                                    + "','" + this.memberHouseNo.Text + "','" + this.memberVillage.Text + "','" + this.memberVillageNo.Text
+                                    + "','" + this.memberSubdistrict.Text + "','" + this.memberDistrict.Text + "','" + this.memberProvince.Text
+                                    + "','" + this.memberPostalcode.Text + "','" + this.com_day.SelectedItem
+                                    + "','" + this.com_month.SelectedItem + "','" + this.memberYear.Text
+                                    + "','" + this.com_status.SelectedItem + "','" + time_started + "')";
+
+                    cmd.ExecuteNonQuery();
+                    MessageBox.Show("insert");
+
+                    loadData();
+                    MessageBox.Show("yes");
+
+                }
+                else
+                {
+                    MessageBox.Show("No");
+                }
+                
+
+                
+
+
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("insert");
+
+                loadData();
+                MessageBox.Show("yes");
+                
+                }
+                
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+
+            }
+        }
+
+        private void but_delete_Click(object sender, EventArgs e)
+        {
+            cmd.CommandText = "DELETE FROM member WHERE memNoID = '" + memberNoID.Text + "' ";
+            cmd.ExecuteNonQuery();
+            loadData();
+
+
+            MessageBox.Show("delete");
+        }
+
+        private void Add_Member_Load(object sender, EventArgs e)
+        {
+            c.Open();
+            cmd.Connection = c;
+            loadData();
+        }
+
+        private void Add_Member_Unload(object sender, EventArgs e)
+        {
+            c.Close();
+        }
+
+        private void but_edit_Click(object sender, EventArgs e)
+        {
+            DateTime time = DateTime.Now;
+            string time_started = time.ToString("hh:mm:ss dd-MM-yyyy");
+
+            
+
+            cmd.CommandText = @"UPDATE member
+                                SET memTitle = '" + this.com_num.SelectedItem + "',memName = '" + this.memberName.Text + "', memLastname = '" + this.memberLastname.Text
+                                                 + "',memNoID = '" + this.memberNoID.Text + "',memHouseNo = '" + this.memberHouseNo.Text
+                                                 + "',memVillage = '" + this.memberVillage.Text + "',memVillageNo = '" + this.memberVillageNo.Text
+                                                 + "',memSubdistrict = '" + this.memberSubdistrict.Text + "',memDistrict = '" + this.memberDistrict.Text
+                                                 + "',memProvince = '" + this.memberProvince.Text + "',memPostalcode = '" + this.memberPostalcode.Text
+                                                 + "',memcomday = '" + this.com_day.SelectedItem + "',memcommonth = '" + this.com_month.SelectedItem
+                                                 + "',memYear = '" + this.memberYear.Text + "',memPostalcode = '" + this.com_status.SelectedItem
+                                                 + "',memtimestarted = '" + time_started
+                          + "' WHERE memNoID = '" + memberNoID.Text + "' ";
+
+            MessageBox.Show("edit");
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("edit2");
+            loadData();
+        }
+
+        private void Cleardata()
+        {
+            com_num.Text = "คำนำหน้า";
+            memberName.Clear();
+            memberLastname.Clear();
+            memberNoID.Clear();
+
+            memberHouseNo.Clear();
+            memberVillage.Clear();
+            memberVillageNo.Clear();
+            memberSubdistrict.Clear();
+            memberDistrict.Clear();
+            memberProvince.Clear();
+            memberPostalcode.Clear();
+            com_day.Text = "วันที่";
+            com_month.Text = "เดือน";
+            memberYear.Clear();
+            com_status.Text = "สถานะภาพ";
+        }
+
+        private void loadData()
+        {
+            MySqlDataReader Reader;
+            cmd.CommandText = "SELECT * FROM member";
+            Reader = cmd.ExecuteReader();
+
+            DataTable dataTable = new DataTable();
+            dataTable.Load(Reader);
+
+            dataGridView1.AutoGenerateColumns = true;
+            dataGridView1.DataSource = dataTable;
+            dataGridView1.Refresh();
+        }
+
+        private void dataGridView1_CellMouseUp(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            com_num.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["memTitle"].Value.ToString();
+            memberName.Text = dataGridView1.Rows[e.RowIndex].Cells["memName"].Value.ToString();
+            memberLastname.Text = dataGridView1.Rows[e.RowIndex].Cells["memLastname"].Value.ToString();
+            memberNoID.Text = dataGridView1.Rows[e.RowIndex].Cells["memNoID"].Value.ToString();
+
+            memberHouseNo.Text = dataGridView1.Rows[e.RowIndex].Cells["memHouseNo"].Value.ToString();
+            memberVillage.Text = dataGridView1.Rows[e.RowIndex].Cells["memVillage"].Value.ToString();
+            memberVillageNo.Text = dataGridView1.Rows[e.RowIndex].Cells["memVillageNo"].Value.ToString();
+            memberSubdistrict.Text = dataGridView1.Rows[e.RowIndex].Cells["memSubdistrict"].Value.ToString();
+            memberDistrict.Text = dataGridView1.Rows[e.RowIndex].Cells["memDistrict"].Value.ToString();
+            memberPostalcode.Text = dataGridView1.Rows[e.RowIndex].Cells["memPostalcode"].Value.ToString();
+            com_day.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["memcomday"].Value.ToString();
+            com_month.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["memcommonth"].Value.ToString();
+            memberYear.Text = dataGridView1.Rows[e.RowIndex].Cells["memYear"].Value.ToString();
+            com_status.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["memcomstatus"].Value.ToString();
+        }
+
+        private void but_print_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Print print = new Print();
+            print.Show();
         }
 
     
