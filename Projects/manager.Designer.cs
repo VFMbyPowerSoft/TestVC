@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manager));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.muneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.พนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.เพมพนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ขอมลพนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ผจดการToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addemployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showemployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.managerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.manPassword = new System.Windows.Forms.TextBox();
@@ -43,18 +43,11 @@
             this.but_delete = new System.Windows.Forms.Button();
             this.but_edit = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label13 = new System.Windows.Forms.Label();
             this.manLastname = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.manYear = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.manVillageNo = new System.Windows.Forms.TextBox();
             this.but_save = new System.Windows.Forms.Button();
-            this.com_month = new System.Windows.Forms.ComboBox();
-            this.com_day = new System.Windows.Forms.ComboBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.manPostalcode = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.manProvince = new System.Windows.Forms.TextBox();
             this.manDistrict = new System.Windows.Forms.TextBox();
@@ -64,7 +57,6 @@
             this.manVillage = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.manHouseNo = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
             this.manNoID = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -74,62 +66,68 @@
             this.but_add = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.manConfirmPassword = new System.Windows.Forms.TextBox();
-            this.com_status = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.showNo = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.muneToolStripMenuItem,
-            this.พนกงานToolStripMenuItem,
-            this.ผจดการToolStripMenuItem,
-            this.ออกจากระบบToolStripMenuItem});
+            this.menuToolStripMenuItem,
+            this.employeeToolStripMenuItem,
+            this.managerToolStripMenuItem,
+            this.exitToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
-            // muneToolStripMenuItem
+            // menuToolStripMenuItem
             // 
-            resources.ApplyResources(this.muneToolStripMenuItem, "muneToolStripMenuItem");
-            this.muneToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
-            this.muneToolStripMenuItem.Name = "muneToolStripMenuItem";
-            this.muneToolStripMenuItem.Click += new System.EventHandler(this.muneToolStripMenuItem_Click);
+            resources.ApplyResources(this.menuToolStripMenuItem, "menuToolStripMenuItem");
+            this.menuToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
-            // พนกงานToolStripMenuItem
+            // employeeToolStripMenuItem
             // 
-            resources.ApplyResources(this.พนกงานToolStripMenuItem, "พนกงานToolStripMenuItem");
-            this.พนกงานToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.เพมพนกงานToolStripMenuItem,
-            this.ขอมลพนกงานToolStripMenuItem});
-            this.พนกงานToolStripMenuItem.Image = global::Projects.Properties.Resources.employee_icon;
-            this.พนกงานToolStripMenuItem.Name = "พนกงานToolStripMenuItem";
+            resources.ApplyResources(this.employeeToolStripMenuItem, "employeeToolStripMenuItem");
+            this.employeeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addemployeeToolStripMenuItem,
+            this.showemployeeToolStripMenuItem});
+            this.employeeToolStripMenuItem.Image = global::Projects.Properties.Resources.employee_icon;
+            this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
             // 
-            // เพมพนกงานToolStripMenuItem
+            // addemployeeToolStripMenuItem
             // 
-            resources.ApplyResources(this.เพมพนกงานToolStripMenuItem, "เพมพนกงานToolStripMenuItem");
-            this.เพมพนกงานToolStripMenuItem.Name = "เพมพนกงานToolStripMenuItem";
-            this.เพมพนกงานToolStripMenuItem.Click += new System.EventHandler(this.เพมพนกงานToolStripMenuItem_Click);
+            resources.ApplyResources(this.addemployeeToolStripMenuItem, "addemployeeToolStripMenuItem");
+            this.addemployeeToolStripMenuItem.Name = "addemployeeToolStripMenuItem";
+            this.addemployeeToolStripMenuItem.Click += new System.EventHandler(this.addemployeeToolStripMenuItem_Click);
             // 
-            // ขอมลพนกงานToolStripMenuItem
+            // showemployeeToolStripMenuItem
             // 
-            resources.ApplyResources(this.ขอมลพนกงานToolStripMenuItem, "ขอมลพนกงานToolStripMenuItem");
-            this.ขอมลพนกงานToolStripMenuItem.Name = "ขอมลพนกงานToolStripMenuItem";
-            this.ขอมลพนกงานToolStripMenuItem.Click += new System.EventHandler(this.ขอมลพนกงานToolStripMenuItem_Click);
+            resources.ApplyResources(this.showemployeeToolStripMenuItem, "showemployeeToolStripMenuItem");
+            this.showemployeeToolStripMenuItem.Name = "showemployeeToolStripMenuItem";
+            this.showemployeeToolStripMenuItem.Click += new System.EventHandler(this.showemployeeToolStripMenuItem_Click);
             // 
-            // ผจดการToolStripMenuItem
+            // managerToolStripMenuItem
             // 
-            resources.ApplyResources(this.ผจดการToolStripMenuItem, "ผจดการToolStripMenuItem");
-            this.ผจดการToolStripMenuItem.Image = global::Projects.Properties.Resources.manager_icon_mini;
-            this.ผจดการToolStripMenuItem.Name = "ผจดการToolStripMenuItem";
-            this.ผจดการToolStripMenuItem.Click += new System.EventHandler(this.ผจดการToolStripMenuItem_Click);
+            resources.ApplyResources(this.managerToolStripMenuItem, "managerToolStripMenuItem");
+            this.managerToolStripMenuItem.Image = global::Projects.Properties.Resources.manager_icon_mini;
+            this.managerToolStripMenuItem.Name = "managerToolStripMenuItem";
+            this.managerToolStripMenuItem.Click += new System.EventHandler(this.managerToolStripMenuItem_Click);
             // 
-            // ออกจากระบบToolStripMenuItem
+            // exitToolStripMenuItem
             // 
-            resources.ApplyResources(this.ออกจากระบบToolStripMenuItem, "ออกจากระบบToolStripMenuItem");
-            this.ออกจากระบบToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
-            this.ออกจากระบบToolStripMenuItem.Name = "ออกจากระบบToolStripMenuItem";
-            this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
+            this.exitToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // label15
             // 
@@ -176,12 +174,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.CellMouseUp += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_CellMouseUp);
             // 
-            // label13
-            // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Name = "label13";
-            // 
             // manLastname
             // 
             resources.ApplyResources(this.manLastname, "manLastname");
@@ -192,11 +184,6 @@
             resources.ApplyResources(this.label12, "label12");
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Name = "label12";
-            // 
-            // manYear
-            // 
-            resources.ApplyResources(this.manYear, "manYear");
-            this.manYear.Name = "manYear";
             // 
             // label11
             // 
@@ -216,82 +203,6 @@
             this.but_save.Name = "but_save";
             this.but_save.UseVisualStyleBackColor = true;
             this.but_save.Click += new System.EventHandler(this.but_save_Click);
-            // 
-            // com_month
-            // 
-            this.com_month.FormattingEnabled = true;
-            this.com_month.Items.AddRange(new object[] {
-            resources.GetString("com_month.Items"),
-            resources.GetString("com_month.Items1"),
-            resources.GetString("com_month.Items2"),
-            resources.GetString("com_month.Items3"),
-            resources.GetString("com_month.Items4"),
-            resources.GetString("com_month.Items5"),
-            resources.GetString("com_month.Items6"),
-            resources.GetString("com_month.Items7"),
-            resources.GetString("com_month.Items8"),
-            resources.GetString("com_month.Items9"),
-            resources.GetString("com_month.Items10"),
-            resources.GetString("com_month.Items11"),
-            resources.GetString("com_month.Items12")});
-            resources.ApplyResources(this.com_month, "com_month");
-            this.com_month.Name = "com_month";
-            // 
-            // com_day
-            // 
-            this.com_day.FormattingEnabled = true;
-            this.com_day.Items.AddRange(new object[] {
-            resources.GetString("com_day.Items"),
-            resources.GetString("com_day.Items1"),
-            resources.GetString("com_day.Items2"),
-            resources.GetString("com_day.Items3"),
-            resources.GetString("com_day.Items4"),
-            resources.GetString("com_day.Items5"),
-            resources.GetString("com_day.Items6"),
-            resources.GetString("com_day.Items7"),
-            resources.GetString("com_day.Items8"),
-            resources.GetString("com_day.Items9"),
-            resources.GetString("com_day.Items10"),
-            resources.GetString("com_day.Items11"),
-            resources.GetString("com_day.Items12"),
-            resources.GetString("com_day.Items13"),
-            resources.GetString("com_day.Items14"),
-            resources.GetString("com_day.Items15"),
-            resources.GetString("com_day.Items16"),
-            resources.GetString("com_day.Items17"),
-            resources.GetString("com_day.Items18"),
-            resources.GetString("com_day.Items19"),
-            resources.GetString("com_day.Items20"),
-            resources.GetString("com_day.Items21"),
-            resources.GetString("com_day.Items22"),
-            resources.GetString("com_day.Items23"),
-            resources.GetString("com_day.Items24"),
-            resources.GetString("com_day.Items25"),
-            resources.GetString("com_day.Items26"),
-            resources.GetString("com_day.Items27"),
-            resources.GetString("com_day.Items28"),
-            resources.GetString("com_day.Items29"),
-            resources.GetString("com_day.Items30"),
-            resources.GetString("com_day.Items31")});
-            resources.ApplyResources(this.com_day, "com_day");
-            this.com_day.Name = "com_day";
-            // 
-            // label10
-            // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Name = "label10";
-            // 
-            // manPostalcode
-            // 
-            resources.ApplyResources(this.manPostalcode, "manPostalcode");
-            this.manPostalcode.Name = "manPostalcode";
-            // 
-            // label9
-            // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Name = "label9";
             // 
             // label8
             // 
@@ -341,12 +252,6 @@
             // 
             resources.ApplyResources(this.manHouseNo, "manHouseNo");
             this.manHouseNo.Name = "manHouseNo";
-            // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Name = "label4";
             // 
             // manNoID
             // 
@@ -405,22 +310,64 @@
             resources.ApplyResources(this.manConfirmPassword, "manConfirmPassword");
             this.manConfirmPassword.Name = "manConfirmPassword";
             // 
-            // com_status
+            // label10
             // 
-            this.com_status.FormattingEnabled = true;
-            this.com_status.Items.AddRange(new object[] {
-            resources.GetString("com_status.Items"),
-            resources.GetString("com_status.Items1"),
-            resources.GetString("com_status.Items2")});
-            resources.ApplyResources(this.com_status, "com_status");
-            this.com_status.Name = "com_status";
+            resources.ApplyResources(this.label10, "label10");
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Name = "label10";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.manHouseNo);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.manVillage);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.manSubdistrict);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.manDistrict);
+            this.groupBox1.Controls.Add(this.manProvince);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.manVillageNo);
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.label12);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            resources.ApplyResources(this.dateTimePicker1, "dateTimePicker1");
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            // 
+            // showNo
+            // 
+            resources.ApplyResources(this.showNo, "showNo");
+            this.showNo.BackColor = System.Drawing.Color.Transparent;
+            this.showNo.Name = "showNo";
+            this.showNo.Click += new System.EventHandler(this.showNo_Click);
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // label9
+            // 
+            resources.ApplyResources(this.label9, "label9");
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Name = "label9";
             // 
             // Manager
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Projects.Properties.Resources.background4;
-            this.Controls.Add(this.com_status);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.showNo);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.manConfirmPassword);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.but_add);
@@ -431,28 +378,9 @@
             this.Controls.Add(this.but_delete);
             this.Controls.Add(this.but_edit);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.label13);
             this.Controls.Add(this.manLastname);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.manYear);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.manVillageNo);
             this.Controls.Add(this.but_save);
-            this.Controls.Add(this.com_month);
-            this.Controls.Add(this.com_day);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.manPostalcode);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.manProvince);
-            this.Controls.Add(this.manDistrict);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.manSubdistrict);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.manVillage);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.manHouseNo);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.manNoID);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -467,6 +395,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -475,10 +405,10 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem muneToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem พนกงานToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ผจดการToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem employeeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem managerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox manPassword;
@@ -486,18 +416,11 @@
         private System.Windows.Forms.Button but_delete;
         private System.Windows.Forms.Button but_edit;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox manLastname;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox manYear;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox manVillageNo;
         private System.Windows.Forms.Button but_save;
-        private System.Windows.Forms.ComboBox com_month;
-        private System.Windows.Forms.ComboBox com_day;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox manPostalcode;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox manProvince;
         private System.Windows.Forms.TextBox manDistrict;
@@ -507,18 +430,22 @@
         private System.Windows.Forms.TextBox manVillage;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox manHouseNo;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox manNoID;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox manName;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox com_num;
-        private System.Windows.Forms.ToolStripMenuItem เพมพนกงานToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ขอมลพนกงานToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addemployeeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showemployeeToolStripMenuItem;
         private System.Windows.Forms.Button but_add;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox manConfirmPassword;
-        private System.Windows.Forms.ComboBox com_status;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Label showNo;
     }
 }

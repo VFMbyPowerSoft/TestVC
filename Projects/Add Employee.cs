@@ -179,45 +179,45 @@ namespace Projects
             dataGridView1.Refresh();
         }
 
-        private void muneToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Memumain main = new Memumain();
-            main.Show();
-        }
-
-        private void เพมพนกงานToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Add_Employee ade = new Add_Employee();
-            ade.Show();
-        }
-
-        private void ขอมลพนกงานToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            ShowEmployee she = new ShowEmployee();
-            she.Show();
-        }
-
-        private void ผจดการToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Manager man = new Manager();
-            man.Show();
-        }
-
-        private void ออกจากระบบToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void but_print_Click(object sender, EventArgs e)
+         private void but_print_Click(object sender, EventArgs e)
         {
             this.Hide();
             Print print = new Print();
             print.Show();
         }
+
+         private void menuToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             this.Hide();
+             Memumain main = new Memumain();
+             main.Show();
+         }
+
+         private void addemployeeToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             this.Hide();
+             Add_Employee ade = new Add_Employee();
+             ade.Show();
+         }
+
+         private void showemployeeToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             this.Hide();
+             ShowEmployee she = new ShowEmployee();
+             she.Show();
+         }
+
+         private void managerToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             this.Hide();
+             Manager man = new Manager();
+             man.Show();
+         }
+
+         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+         {
+             this.Close();
+         }
 
         
 

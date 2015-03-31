@@ -181,6 +181,9 @@
   <data name="deposit_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\deposit_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mini_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mini_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="member_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\member_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,7 +211,7 @@
   <data name="cancel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mini_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mini_background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="print_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\print_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

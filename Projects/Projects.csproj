@@ -371,6 +371,9 @@
   <ItemGroup>
     <None Include="Resources\mini_background.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_icon1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

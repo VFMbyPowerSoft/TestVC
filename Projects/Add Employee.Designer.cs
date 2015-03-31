@@ -67,14 +67,14 @@
             this.but_save = new System.Windows.Forms.Button();
             this.empConfirmPassword = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.muneToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.พนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.เพมพนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ขอมลพนกงานToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ผจดการToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ออกจากระบบToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.com_status = new System.Windows.Forms.ComboBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.employeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.addemployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showemployeeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.managerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -437,7 +437,7 @@
             // 
             // but_print
             // 
-            this.but_print.BackgroundImage = global::Projects.Properties.Resources.printer_icon;
+            this.but_print.BackgroundImage = global::Projects.Properties.Resources.print_icon1;
             this.but_print.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.but_print.Location = new System.Drawing.Point(442, 530);
             this.but_print.Name = "but_print";
@@ -502,86 +502,6 @@
             this.label16.TabIndex = 229;
             this.label16.Text = "ยืนยันรหัสผ่าน";
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.muneToolStripMenuItem,
-            this.พนกงานToolStripMenuItem,
-            this.ผจดการToolStripMenuItem,
-            this.ออกจากระบบToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1008, 108);
-            this.menuStrip1.TabIndex = 230;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // muneToolStripMenuItem
-            // 
-            this.muneToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.muneToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.muneToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
-            this.muneToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.muneToolStripMenuItem.Name = "muneToolStripMenuItem";
-            this.muneToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
-            this.muneToolStripMenuItem.Text = "หน้าแรก";
-            this.muneToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.muneToolStripMenuItem.Click += new System.EventHandler(this.muneToolStripMenuItem_Click);
-            // 
-            // พนกงานToolStripMenuItem
-            // 
-            this.พนกงานToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.พนกงานToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.เพมพนกงานToolStripMenuItem,
-            this.ขอมลพนกงานToolStripMenuItem});
-            this.พนกงานToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.พนกงานToolStripMenuItem.Image = global::Projects.Properties.Resources.employee_icon;
-            this.พนกงานToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.พนกงานToolStripMenuItem.Name = "พนกงานToolStripMenuItem";
-            this.พนกงานToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
-            this.พนกงานToolStripMenuItem.Text = "พนักงาน";
-            this.พนกงานToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // เพมพนกงานToolStripMenuItem
-            // 
-            this.เพมพนกงานToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.เพมพนกงานToolStripMenuItem.Name = "เพมพนกงานToolStripMenuItem";
-            this.เพมพนกงานToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
-            this.เพมพนกงานToolStripMenuItem.Text = "เพิ่มพนักงาน";
-            this.เพมพนกงานToolStripMenuItem.Click += new System.EventHandler(this.เพมพนกงานToolStripMenuItem_Click);
-            // 
-            // ขอมลพนกงานToolStripMenuItem
-            // 
-            this.ขอมลพนกงานToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ขอมลพนกงานToolStripMenuItem.Name = "ขอมลพนกงานToolStripMenuItem";
-            this.ขอมลพนกงานToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
-            this.ขอมลพนกงานToolStripMenuItem.Text = "ข้อมูลพนักงาน";
-            this.ขอมลพนกงานToolStripMenuItem.Click += new System.EventHandler(this.ขอมลพนกงานToolStripMenuItem_Click);
-            // 
-            // ผจดการToolStripMenuItem
-            // 
-            this.ผจดการToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ผจดการToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ผจดการToolStripMenuItem.Image = global::Projects.Properties.Resources.manager_icon_mini;
-            this.ผจดการToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ผจดการToolStripMenuItem.Name = "ผจดการToolStripMenuItem";
-            this.ผจดการToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
-            this.ผจดการToolStripMenuItem.Text = "ผู้จัดการ";
-            this.ผจดการToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.ผจดการToolStripMenuItem.Click += new System.EventHandler(this.ผจดการToolStripMenuItem_Click);
-            // 
-            // ออกจากระบบToolStripMenuItem
-            // 
-            this.ออกจากระบบToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ออกจากระบบToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ออกจากระบบToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
-            this.ออกจากระบบToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.ออกจากระบบToolStripMenuItem.Name = "ออกจากระบบToolStripMenuItem";
-            this.ออกจากระบบToolStripMenuItem.Size = new System.Drawing.Size(102, 104);
-            this.ออกจากระบบToolStripMenuItem.Text = "ออกจากระบบ";
-            this.ออกจากระบบToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.ออกจากระบบToolStripMenuItem.Click += new System.EventHandler(this.ออกจากระบบToolStripMenuItem_Click);
-            // 
             // com_status
             // 
             this.com_status.FormattingEnabled = true;
@@ -595,6 +515,85 @@
             this.com_status.TabIndex = 231;
             this.com_status.Text = "โปรดเลือก";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuToolStripMenuItem,
+            this.employeeToolStripMenuItem,
+            this.managerToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1008, 108);
+            this.menuStrip1.TabIndex = 232;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.menuToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.menuToolStripMenuItem.Image = global::Projects.Properties.Resources.home_icon;
+            this.menuToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.menuToolStripMenuItem.Text = "หน้าแรก";
+            this.menuToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
+            // 
+            // employeeToolStripMenuItem
+            // 
+            this.employeeToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.employeeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addemployeeToolStripMenuItem,
+            this.showemployeeToolStripMenuItem});
+            this.employeeToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.employeeToolStripMenuItem.Image = global::Projects.Properties.Resources.employee_icon;
+            this.employeeToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.employeeToolStripMenuItem.Name = "employeeToolStripMenuItem";
+            this.employeeToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.employeeToolStripMenuItem.Text = "พนักงาน";
+            this.employeeToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // addemployeeToolStripMenuItem
+            // 
+            this.addemployeeToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.addemployeeToolStripMenuItem.Name = "addemployeeToolStripMenuItem";
+            this.addemployeeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.addemployeeToolStripMenuItem.Text = "เพิ่มพนักงาน";
+            this.addemployeeToolStripMenuItem.Click += new System.EventHandler(this.addemployeeToolStripMenuItem_Click);
+            // 
+            // showemployeeToolStripMenuItem
+            // 
+            this.showemployeeToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.showemployeeToolStripMenuItem.Name = "showemployeeToolStripMenuItem";
+            this.showemployeeToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
+            this.showemployeeToolStripMenuItem.Text = "ข้อมูลพนักงาน";
+            this.showemployeeToolStripMenuItem.Click += new System.EventHandler(this.showemployeeToolStripMenuItem_Click);
+            // 
+            // managerToolStripMenuItem
+            // 
+            this.managerToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.managerToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.managerToolStripMenuItem.Image = global::Projects.Properties.Resources.manager_icon_mini;
+            this.managerToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.managerToolStripMenuItem.Name = "managerToolStripMenuItem";
+            this.managerToolStripMenuItem.Size = new System.Drawing.Size(92, 104);
+            this.managerToolStripMenuItem.Text = "ผู้จัดการ";
+            this.managerToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.managerToolStripMenuItem.Click += new System.EventHandler(this.managerToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.exitToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.exitToolStripMenuItem.Image = global::Projects.Properties.Resources.exit_icon;
+            this.exitToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(102, 104);
+            this.exitToolStripMenuItem.Text = "ออกจากระบบ";
+            this.exitToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // Add_Employee
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -603,8 +602,8 @@
             this.BackgroundImage = global::Projects.Properties.Resources.background4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 601);
-            this.Controls.Add(this.com_status);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.com_status);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.empConfirmPassword);
             this.Controls.Add(this.but_add);
@@ -697,13 +696,13 @@
         private System.Windows.Forms.Button but_save;
         private System.Windows.Forms.TextBox empConfirmPassword;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem muneToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem พนกงานToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem เพมพนกงานToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ขอมลพนกงานToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ผจดการToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ออกจากระบบToolStripMenuItem;
         private System.Windows.Forms.ComboBox com_status;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem employeeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem addemployeeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem showemployeeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem managerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }

@@ -24,42 +24,42 @@ namespace Projects
             InitializeComponent();
         }
 
-        private void muneToolStripMenuItem_Click(object sender, EventArgs e)
+        private void menuToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             Memumain main = new Memumain();
             main.Show();
         }
 
-        private void เพมพนกงานToolStripMenuItem_Click(object sender, EventArgs e)
+        private void addemployeeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             Add_Employee ade = new Add_Employee();
             ade.Show();
         }
 
-        private void ขอมลพนกงานToolStripMenuItem_Click(object sender, EventArgs e)
+        private void showemployeeToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             ShowEmployee she = new ShowEmployee();
             she.Show();
         }
 
-        private void ผจดการToolStripMenuItem_Click(object sender, EventArgs e)
+        private void managerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
             Manager man = new Manager();
             man.Show();
         }
 
-        private void ออกจากระบบToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
         private void but_save_Click(object sender, EventArgs e)
         {
-            try
+            /*try
             {
                 if (manPassword.Text == manConfirmPassword.Text)
                 {
@@ -96,7 +96,7 @@ namespace Projects
 
             }
 
-
+            */
         }
 
         private void but_add_Click(object sender, EventArgs e)
@@ -119,7 +119,7 @@ namespace Projects
 
         private void but_edit_Click(object sender, EventArgs e)
         {
-            DateTime time = DateTime.Now;
+            /*DateTime time = DateTime.Now;
             string time_started = time.ToString("hh:mm:ss dd-MM-yyyy");
 
 
@@ -129,17 +129,13 @@ namespace Projects
                                                  + "',manPassword = '" + this.manPassword.Text + "',manHouseNo = '" + this.manHouseNo.Text
                                                  + "',manVillage = '" + this.manVillage.Text + "',manVillageNo = '" + this.manVillageNo.Text
                                                  + "',manSubdistrict = '" + this.manSubdistrict.Text + "',manDistrict = '" + this.manDistrict.Text
-                                                 + "',manProvince = '" + this.manProvince.Text + "',manPostalcode = '" + this.manPostalcode.Text
-                                                 + "',mancomday = '" + this.com_day.SelectedItem + "',mancommonth = '" + this.com_month.SelectedItem
-                                                 + "',manYear = '" + this.manYear.Text + "',manPostalcode = '" + this.com_status.SelectedItem
-                                                 + "',manTime = '" + time_started
-                          + "'  ";
+                                                 + "',manProvince = '" + this.manProvince.Text + "',manTime = '" + time_started + "' ";
 
             MessageBox.Show("edit");
             cmd.ExecuteNonQuery();
             MessageBox.Show("edit2");
             loadData();
-
+            */
         }
 
         private void dataGridView1_CellMouseUp(object sender, DataGridViewCellMouseEventArgs e)
@@ -157,12 +153,7 @@ namespace Projects
             manSubdistrict.Text = dataGridView1.Rows[e.RowIndex].Cells["manSubdistrict"].Value.ToString();
             manDistrict.Text = dataGridView1.Rows[e.RowIndex].Cells["manDistrict"].Value.ToString();
             manProvince.Text = dataGridView1.Rows[e.RowIndex].Cells["manProvince"].Value.ToString();
-            manPostalcode.Text = dataGridView1.Rows[e.RowIndex].Cells["manPostalcode"].Value.ToString();
-            com_day.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["mancomday"].Value.ToString();
-            com_month.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["mancommonth"].Value.ToString();
-            manYear.Text = dataGridView1.Rows[e.RowIndex].Cells["manYear"].Value.ToString();
-            com_status.SelectedItem = dataGridView1.Rows[e.RowIndex].Cells["mancomstatus"].Value.ToString();
-
+            
 
         }
 
@@ -172,6 +163,15 @@ namespace Projects
             cmd.Connection = c;
 
             loadData();
+
+            MySqlDataReader Reader;
+            //cmd.CommandText = "SELECT * FROM manager ORDER BY manID DESC LIMIT 1";
+
+            cmd.CommandText = "SELECT * FROM manager";
+            Reader = cmd.ExecuteReader();
+            Reader.Read();
+            //showNo.Text = Convert.ToString(Reader);
+            showNo.Text = Reader["manID"].ToString();
         }
 
         private void Manager_Unload(object sender, EventArgs e)
@@ -194,11 +194,7 @@ namespace Projects
             manSubdistrict.Clear();
             manDistrict.Clear();
             manProvince.Clear();
-            manPostalcode.Clear();
-            com_day.Text = "วันที่";
-            com_month.Text = "เดือน";
-            manYear.Clear();
-            com_status.Text = "สถานะภาพ";
+            
         }
 
         private void loadData()
@@ -221,6 +217,19 @@ namespace Projects
 
 
 
+        }
+
+        private void showNo_Click(object sender, EventArgs e)
+        {
+            /*MySqlDataReader Reader;
+            //cmd.CommandText = "SELECT * FROM manager ORDER BY manID DESC LIMIT 1";
+            
+            cmd.CommandText = "SELECT * FROM manager";
+            Reader = cmd.ExecuteReader();
+            Reader.Read();
+            //showNo.Text = Convert.ToString(Reader);
+            showNo.Text = Reader["manID"].ToString();
+      */
         }
     }
 }
